@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [MIMDocs\Understand\identity-manager-hybrid-reporting-azure.md](https://github.com/Microsoft/MIMDocs-pr/blob/c4a8b95ea7b029c47c0cb42829929c8c262ba897/MIMDocs/Understand/identity-manager-hybrid-reporting-azure.md) | HandedOffSuccess | [Details](#03b75e428c920f68b1816a934cc4ffed8cb47be0268)
+ [MIMDocs\index - new design.md](https://github.com/Microsoft/MIMDocs-pr/blob/c8804af96454baf974366a2a73fe61a8fe3df93f/MIMDocs/index - new design.md) | HandedOffSuccess | [Details](#48d3e50678a1a44aa42ab9b3048c04dbf0aef31878)
 
 ## Item Details
-##### <a name='03b75e428c920f68b1816a934cc4ffed8cb47be0268'></a> Source: [MIMDocs\Understand\identity-manager-hybrid-reporting-azure.md](https://github.com/Microsoft/MIMDocs-pr/blob/c4a8b95ea7b029c47c0cb42829929c8c262ba897/MIMDocs/Understand/identity-manager-hybrid-reporting-azure.md)
+##### <a name='48d3e50678a1a44aa42ab9b3048c04dbf0aef31878'></a> Source: [MIMDocs\index - new design.md](https://github.com/Microsoft/MIMDocs-pr/blob/c8804af96454baf974366a2a73fe61a8fe3df93f/MIMDocs/index - new design.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [identity-manager-hybrid-reporting-azure.50c26252fc76f6c50be4c477e24cfaf05cf3c4c7.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/88a68d700ca0a1c1d023fcc85b528d0495387b3d/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/identity-manager-hybrid-reporting-azure.50c26252fc76f6c50be4c477e24cfaf05cf3c4c7.fr-fr.xlf)
-* Handoff Datetime: 2016-04-12 15:05:30
+* Handoff File: [index - new design.46097eff2f7e1f52bebfde3a88d3265d0f385a7f.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/23f879d77bc994fa97e7e491496b47132683be1d/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/index - new design.46097eff2f7e1f52bebfde3a88d3265d0f385a7f.fr-fr.xlf)
+* Handoff Datetime: 2016-04-14 18:08:43
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
