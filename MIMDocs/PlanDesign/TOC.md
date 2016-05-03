@@ -1,7 +1,12 @@
-# [Understand and Explore](/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016)
-# [Plan and Design](/microsoft-identity-manager/plan-design/microsoft-identity-manager-2016-supported-platforms)
-## [Supported platforms](microsoft-identity-manager-2016-supported-platforms.md)
-## [Capacity planning](capacity-planning-guide.md)
-## [Deployment topology](topology-considerations.md)
-# [Deploy and Use](/microsoft-identity-manager/deploy-use/microsoft-identity-manager-deploy)
-# [Developer Reference](/microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference)
+# [Comprendre et explorer](/microsoft-identity-manager/Understand/microsoft-identity-manager-2016)
+# [Planification et conception](/microsoft-identity-manager/PlanDesign/microsoft-identity-manager-2016-supported-platforms)
+## [Plateformes prises en charge](microsoft-identity-manager-2016-supported-platforms.md)
+## [Planification des capacités](capacity-planning-guide.md)
+## [Topologie de déploiement](topology-considerations.md)
+# [Déployer et utiliser](/microsoft-identity-manager/DeployUse/microsoft-identity-manager-deploy)
+# [Référence pour les développeurs](/microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference)
+
+
+<!--HONumber=Mar16_HO5-->
+
+
