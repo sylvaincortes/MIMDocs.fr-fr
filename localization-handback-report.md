@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\prepare-server-sql2014.md](https://github.com/Microsoft/MIMDocs-pr/blob/c023d147d0fcc1525fefbe866c952e217f7bee6b/MIMDocs/DeployUse/prepare-server-sql2014.md) | InSyncHandedBackSuccess | [Details](#2c0ff0bdbba4bcf979def8d5c7aa381947d6cc8769)
- [MIMDocs\DeployUse\preparing-domain.md](https://github.com/Microsoft/MIMDocs-pr/blob/b2578d50f855486183ae182330bacb688011c273/MIMDocs/DeployUse/preparing-domain.md) | InSyncHandedBackSuccess | [Details](#b84a6c7c7b53a122eefc3846ba93b92b34edb6ce71)
 
 ## Item Details
-##### <a name='2c0ff0bdbba4bcf979def8d5c7aa381947d6cc8769'></a> Source: [MIMDocs\DeployUse\prepare-server-sql2014.md](https://github.com/Microsoft/MIMDocs-pr/blob/c023d147d0fcc1525fefbe866c952e217f7bee6b/MIMDocs/DeployUse/prepare-server-sql2014.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\prepare-server-sql2014.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/5d75eeea9d4fd227e0d6f2081adbd139a9f7acec/MIMDocs/DeployUse/prepare-server-sql2014.md)
-* Handoff File: [prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/9cd61cf842821dd6142fada9d97e8e1d6dba9213/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf)
-* Handoff Datetime: 2016-04-18 16:53:17
-* Handoff Reason: Include
-* Archive File: [prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/a3e1c08c7db6114cf0919f4f969a65c5d4b95aa9/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf)
-* Archive Datetime: 2016-05-19 21:27:25
-* Handback File: [prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/74e7f28879460831b7fbd3b527de73321c2977f0/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/prepare-server-sql2014.908ce04c42d7be500304a71be06bc4b1acfdd6b7.fr-fr.xlf)
-* Handback Datetime: 2016-05-26 15:41:23
-* [Back to Top](#report-top)
-
-##### <a name='b84a6c7c7b53a122eefc3846ba93b92b34edb6ce71'></a> Source: [MIMDocs\DeployUse\preparing-domain.md](https://github.com/Microsoft/MIMDocs-pr/blob/b2578d50f855486183ae182330bacb688011c273/MIMDocs/DeployUse/preparing-domain.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\preparing-domain.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/5d75eeea9d4fd227e0d6f2081adbd139a9f7acec/MIMDocs/DeployUse/preparing-domain.md)
-* Handoff File: [preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/bcbf8b6b51a9d72d3484488da76ba5e6546c4c7f/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf)
-* Handoff Datetime: 2016-05-19 17:03:03
-* Handoff Reason: Include
-* Archive File: [preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/a3e1c08c7db6114cf0919f4f969a65c5d4b95aa9/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf)
-* Archive Datetime: 2016-05-19 21:27:25
-* Handback File: [preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/74e7f28879460831b7fbd3b527de73321c2977f0/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/preparing-domain.9b77cd90d5739c58d60a5f1157edad1db6f26bb3.fr-fr.xlf)
-* Handback Datetime: 2016-05-26 15:41:23
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
