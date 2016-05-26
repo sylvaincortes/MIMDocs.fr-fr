@@ -26,16 +26,17 @@ ms.suite: ems
 ---
 
 # Microsoft Identity Manager 2016
-MIM 2016 repose sur les fonctionnalités de gestion des identités et des accès déjà puissantes de FIM 2010 R2. Il propose aussi une expérience hybride, des fonctionnalités de gestion des accès privilégiés et la prise en charge de nouvelles plateformes.
+Microsoft Identity Manager (MIM) 2016 s’appuie sur les fonctionnalités de gestion des identités et des accès de FIM 2010 R2. Comme son prédécesseur, MIM vous aide à gérer les utilisateurs, les informations d’identification, les stratégies et les accès au sein de votre organisation.  En outre, MIM 2016 ajoute une expérience hybride, des fonctionnalités de gestion des accès privilégiés, et la prise en charge de nouvelles plateformes.
+
+Cette version de Microsoft Identity Manager fournit de nouvelles fonctionnalités telles que Privileged Identity Management et la prise en charge dans la Gestion des certificats de l'accès aux API REST. La Gestion des certificats offre maintenant une prise en charge supplémentaire des topologies à forêts multiples, une application du Windows Store pour la gestion du cycle de vie de certificat et de carte à puce virtuelle, des événements mis à jour et des capacités de dépannage. Les scénarios libre-service incluent désormais le déverrouillage de compte et une porte d'authentification multifacteur pour la réinitialisation des mots de passe.
 
 ## Expérience hybride
-Microsoft Identity Manager 2016 prend en charge la création de rapports hybrides à partir de MIM incluse dans les rapports Azure AD. En outre, le portail de réinitialisation de mot de passe libre-service prend en charge l'authentification multifacteur Azure (MFA).
+Microsoft Identity Manager 2016 fonctionne avec Azure pour vous procurer le contrôle de l’intégralité de votre environnement. La fonctionnalité de rapports hybrides dans Azure présente vos données locales et du cloud dans un emplacement unique. En outre, le portail de réinitialisation de mot de passe libre-service prend en charge l’authentification multifacteur Azure (MFA).
 
 ## Privileged Identity Management
-Privileged Identity Management contrôle et gère l'accès administratif en fournissant un accès temporaire et basé sur des tâches aux ressources sensibles, éliminant ainsi l'accès administratif de type « carte blanche » très convoité par les pirates informatiques. En outre, Privileged Identity Management extrait et isole les comptes d'administration des forêts Active Directory existantes.
+Privileged Identity Management contrôle et gère l’accès administratif en fournissant un accès temporaire et basé sur des tâches aux ressources sensibles. Cela signifie que vous pouvez accorder aux utilisateurs uniquement les autorisations dont ils ont besoin, ce qui réduit le risque qu’un pirate informatique obtienne un accès administratif complet. En outre, Privileged Identity Management extrait et isole les comptes d'administration des forêts Active Directory existantes.
 
-## Modernisation
-Cette version de Microsoft Identity Manager fournit de nouvelles fonctionnalités telles que Privileged Identity Management et la prise en charge dans la Gestion des certificats de l'accès aux API REST. La Gestion des certificats offre maintenant une prise en charge supplémentaire des topologies à forêts multiples, une application du Windows Store pour la gestion du cycle de vie de certificat et de carte à puce virtuelle, des événements mis à jour et des capacités de dépannage. Les scénarios libre-service incluent désormais le déverrouillage de compte et une porte d'authentification multifacteur pour la réinitialisation des mots de passe.
+## Plateformes prises en charge
 
 MIM prend en charge une liste mise à jour de produits et de plateformes, y compris les toutes dernières plateformes Microsoft et piles Office/serveur, le système d'exploitation de client Windows, le système d'exploitation de serveur Windows, SharePoint, SQL et Outlook, en particulier :
 
@@ -49,11 +50,7 @@ MIM prend en charge une liste mise à jour de produits et de plateformes, y comp
 
 -   System Center Service Manager 2012 et 2012 R2
 
-Pour plus d'informations sur les composants Identity Manager précédents, consultez les rubriques suivantes :
 
--   [Microsoft BHOLD Suite](https://technet.microsoft.com/en-us/library/jj134096.aspx)
-
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

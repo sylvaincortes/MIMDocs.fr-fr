@@ -32,15 +32,18 @@ ms.suite: ems
 [Service et portail MIM »](install-mim-service-portal.md)
 
 > [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> - Nom du contrôleur de domaine : **mimservername**
+> - Nom de domaine : **contoso**
+> - Mot de passe : **Pass@word1**
 
-Pour installer les composants de Microsoft Identity Manager 2016 :
+Pour installer les composants de Microsoft Identity Manager 2016, configurez d’abord le package d’installation.
 
-1. Connectez-vous en tant que *contoso\Administrateur* sur le serveur CORPIDM que vous utilisez pour la gestion des identités.
+1. Connectez-vous en tant que *contoso\Administrateur* sur le serveur que vous utilisez pour la gestion des identités.
 
 2. Décompressez le package d'installation MIM, ou montez DVD de l'image MIM.
 
-## Installer le service de synchronisation MIM 2016
+## Installer le service de synchronisation MIM 2016
 
 1. Dans le dossier d'installation MIM décompressé, accédez au dossier **Service de synchronisation** .
 
@@ -50,7 +53,7 @@ Pour installer les composants de Microsoft Identity Manager 2016 :
 
     ![Image de Bienvenue dans l’Assistant du programme d’installation de MIM](media/MIM-Install1.png)
 
-4. Prenez connaissance des termes du contrat de licence, et si vous les acceptez, cliquez sur **Suivant**.
+4. Prenez connaissance des termes du contrat de licence, et cliquez sur **Suivant** pour les accepter.
 
 5. Dans l’écran **Installation personnalisée**, cliquez sur **Suivant**.
 
@@ -76,15 +79,15 @@ Pour installer les composants de Microsoft Identity Manager 2016 :
 
 8.  Indiquez au programme d'installation de la synchronisation MIM les groupes de sécurité appropriés :
 
-    1.  Administrateur = *contoso\MIMSyncAdmins*
+    1. Administrateur = *contoso\MIMSyncAdmins*
 
-    2.  Opérateur = *contoso\MIMSyncOperators*
+    2. Opérateur = *contoso\MIMSyncOperators*
 
-    3.  Jointure = *contoso\MIMSyncJoiners*
+    3. Jointure = *contoso\MIMSyncJoiners*
 
-    4.  Connecteurs = *contoso\MIMSyncBrowse*
+    4. Connecteurs = *contoso\MIMSyncBrowse*
 
-    5.  Gestion des mots de passe WMI = *contoso\MIMSyncPasswordReset*
+    5. Gestion des mots de passe WMI = *contoso\MIMSyncPasswordReset*
 
     ![Image des groupes de sécurité](media/MIM-Install5.png)
 
@@ -92,27 +95,23 @@ Pour installer les composants de Microsoft Identity Manager 2016 :
 
 10. Cliquez sur **Installer** pour commencer l’installation de la synchronisation MIM.
 
-    1.  Un avertissement concernant le compte de service de synchronisation MIM s'affiche. Cliquez sur **OK**.
+    1. Un avertissement concernant le compte de service de synchronisation MIM s'affiche. Cliquez sur **OK**.
 
-    2.  La synchronisation MIM va maintenant être installée.
+    2. La synchronisation MIM va être installée.
 
-        ![Image d’état de l’installation de la synchronisation MIM](media/MIM-Install6.png)
-
-    3.  Une notification relative à la création d’une sauvegarde pour la clé de chiffrement s’affiche : cliquez sur **OK**, puis sélectionnez un dossier où stocker la sauvegarde de la clé de chiffrement.
+    3. Une notification relative à la création d’une sauvegarde pour la clé de chiffrement s’affiche : cliquez sur **OK**, puis sélectionnez un dossier où stocker la sauvegarde de la clé de chiffrement.
 
         ![Image de la notification de la clé de chiffrement de la sauvegarde de synchronisation MIM](media/MIM-Install7.png)
 
-    4.  Une fois l'exécution du programme d'installation achevée, cliquez sur **Terminer**.
+    4. Une fois l'exécution du programme d'installation achevée, cliquez sur **Terminer**.
 
-        ![Image d’installation réussie de la synchronisation MIM](media/MIM-Install8.png)
-
-    5.  Vous devez vous déconnecter et vous reconnecter pour que les modifications de l’appartenance au groupe prennent effet. Cliquez sur **Oui** pour vous déconnecter.
+    5. Vous devez vous déconnecter et vous reconnecter pour que les modifications de l’appartenance au groupe prennent effet. Cliquez sur **Oui** pour vous déconnecter.
 
 >[!div class="step-by-step"]  
 [« Exchange Server](prepare-server-exchange.md)
 [Service et portail MIM »](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

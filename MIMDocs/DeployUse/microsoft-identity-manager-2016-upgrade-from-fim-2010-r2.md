@@ -6,7 +6,7 @@ description: Découvrez comment mettre à niveau vos composants FIM 2010 R2 et
 keywords:
 author: kgremban
 manager: stevenpo
-ms.date: 04/28/2016
+ms.date: 05/13/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -25,16 +25,22 @@ ms.suite: ems
 
 ---
 
-# Mise à niveau de Forefront Identity Manager 2010 R2 vers Microsoft Identity Manager 2016
-Cette section traite de la mise à niveau d'un système test FIM 2010 R2 existant vers MIM 2016. Les programmes d'installation utilisés pour la mise à niveau sont les mêmes que ceux utilisés pour un nouveau déploiement.
+# Mise à niveau depuis Forefront Identity Manager 2010 R2
 
-Cette section part du principe que vous avez une solution FIM 2010 R2 existante déployée dans un environnement de test. Vos serveurs s’exécutent sur Windows Server 2012, Windows Server 2012 R2 ou Windows Server 2008 R2, qui sont les systèmes d’exploitation courants pour les serveurs FIM 2010 R2, et tous les logiciels locaux et environnementaux prérequis (SQL Server, Exchange Server, SharePoint Services, etc.) sont configurés pour FIM 2010 R2.
+Si vous avez un environnement Forefront Identity Manager (FIM) 2010 R2 et que vous souhaitez essayer Microsoft Identity Manager (MIM) 2016, utilisez cet article comme guide. Cette mise à niveau comporte trois phases :
 
-1.  Le service de synchronisation MIM (Sync) est tout d'abord installé et exécuté sur un serveur qui est joint au domaine Active Directory. Ce service remplace l'instance FIM 2010 R2 du service Sync.
+1.  Installer le service de synchronisation MIM 2016 (Sync) sur un serveur joint à votre domaine Active Directory (AD). Cela remplace l’instance FIM 2010 R2 du service de synchronisation.
 
-2.  Le service et le portail MIM, y compris éventuellement le portail d'inscription SSPR et le portail de service SSPR, et à l'exclusion du jeu de fonctionnalités Privileged Access Management, sont ensuite installés.
+2.  Installer le service et le portail MIM. À ce stade, vous pouvez aussi choisir d’installer le portail d’enregistrement Réinitialisation du mot de passe libre-service et le portail de service. L’installation sera effectuée, à l’exclusion du jeu de fonctionnalités Privileged Access Management.
 
-3.  Les compléments et extensions MIM, y compris le client intégré de connexion Windows SSPR, peuvent ensuite être déployés sur un ordinateur client distinct.
+3.  Déployer les compléments et les extensions MIM sur un ordinateur client distinct. Cela comprend le client intégré de connexion Windows SSPR.
+
+
+Ce guide part du principe que vous avez déjà configuré ce qui suit :
+- FIM 2010 R2 déployé dans un environnement de test
+- Serveurs exécutant Windows Server 2012, Windows Server 2012 R2 ou Windows Server 2008 R2
+- Prérequis locaux et environnementaux (SQL Server, Exchange Server, SharePoint Services, etc.) configurés pour FIM 2010 R2
+
 
 ## Préparation
 
@@ -201,6 +207,6 @@ Cette section part du principe que vous avez une solution FIM 2010 R2 existante 
 Remarque : si les compléments et les extensions FIM actuellement déployés sur les ordinateurs de l’utilisateur pour la réinitialisation de mot de passe libre-service, ne configurez pas les nouvelles portes de téléphone MFA pour la réinitialisation du mot de passe jusqu’à ce que tous les compléments et extensions FIM aient été mis à niveau vers MIM 2016.  Comme les compléments et extensions de FIM 2010 et FIM 2010 R2 ne reconnaissent pas les nouvelles portes, une erreur s’affiche et l’utilisateur ne peut pas effectuer la réinitialisation du mot de passe.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

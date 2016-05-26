@@ -32,35 +32,36 @@ ms.suite: ems
 [Synchroniser les bases de données »](install-mim-sync-ad-service.md)
 
 > [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> - Nom du contrôleur de domaine : **mimservername**
+> - Nom de domaine : **contoso**
+> - Mot de passe : **Pass@word1**
+> - Nom du compte de service : **MIMService**
 
-Si vous n’avez pas configuré le package d’installation MIM dans la dernière étape, procédez comme suit pour installer les composants de Microsoft Identity Manager 2016 :
+Si vous n’avez pas configuré le package d’installation MIM lors de la dernière étape, revenez en arrière et installez les composants de Microsoft Identity Manager 2016 avant de continuer.
 
-1. Connectez-vous en tant que *contoso\Administrateur* sur le serveur CORPIDM que vous utilisez pour la gestion des identités.
-
-2. Décompressez le package d'installation MIM, ou montez DVD de l'image MIM.
 
 ## Configurer le service MIM et le portail pour l’installation
 
-1.  Exécutez le programme d’installation du **service MIM et du portail** à partir du sous-dossier décompressé **Service et portail**.
+1. Exécutez le programme d’installation du **service MIM et du portail** à partir du sous-dossier décompressé **Service et portail**.
 
-2.  Dans l'écran d'accueil, cliquez sur **Suivant**.
+2. Dans l'écran d'accueil, cliquez sur **Suivant**.
 
-3.  Lisez le Contrat de Licence Utilisateur Final et, si vous en acceptez les termes, cliquez sur **Suivant**.
+3. Lisez le Contrat de Licence Utilisateur Final et cliquez sur **Suivant** si vous en acceptez les termes.
 
-4.  Dans l’écran **Programme d’amélioration du produit MIM**, cliquez sur **Suivant**.
+4. Dans l’écran **Programme d’amélioration du produit MIM**, cliquez sur **Suivant**.
 
-5.  Lorsque vous sélectionnez les fonctionnalités de ce déploiement, veillez à inclure les fonctionnalités de service MIM (à l’exception de MIM Reporting) et de portail MIM. Vous pouvez également sélectionner le portail d’inscription de mot de passe MIM et le service de notification de modification de mot de passe MIM.
+5. Lorsque vous sélectionnez les fonctionnalités de ce déploiement, veillez à inclure les fonctionnalités de service MIM (à l’exception de MIM Reporting) et de portail MIM. Vous pouvez également sélectionner le portail d’inscription de mot de passe MIM et le service de notification de modification de mot de passe MIM.
 
-6.  Sur la page **Configurer la connexion de base de données MIM**, spécifiez **Créer une nouvelle base de données**.
+6. Dans la page **Configurer la connexion de base de données MIM**, choisissez **Créer une nouvelle base de données**.
 
     ![Image de la configuration de la connexion de base de données MIM](media/MIM-Install10.png)
 
-7.  Dans **Configurer la connexion au serveur de messagerie**, entrez le nom de votre serveur Exchange en tant que **serveur de messagerie**. Si vous n’avez aucun serveur de messagerie configuré, spécifiez localhost comme nom de serveur de messagerie, puis décochez les deux premières cases. Cliquez sur **Suivant**.
+7. Dans **Configurer la connexion au serveur de messagerie**, entrez le nom de votre serveur Exchange en tant que **serveur de messagerie**. Si vous n’avez aucun serveur de messagerie configuré, utilisez **localhost** comme nom de serveur de messagerie, puis décochez les deux premières cases. Cliquez sur **Suivant**.
 
     ![Image de la configuration de la connexion au serveur de messagerie](media/MIM-Install11.png)
 
-8.  Spécifiez que vous souhaitez générer un nouveau certificat auto-signé ou sélectionnez le certificat approprié.
+8. Spécifiez que vous souhaitez générer un nouveau certificat auto-signé ou sélectionnez le certificat approprié.
 
 9. Spécifiez le nom du compte de service à utiliser, par exemple *MIMService*, le mot de passe correspondant, par exemple *Pass@word1*, votre domaine de compte de service, par exemple *contoso*, ainsi que le compte de messagerie du service, par exemple *contoso*.
 
@@ -110,8 +111,6 @@ Si vous n’avez pas configuré le package d’installation MIM dans la dernièr
 
 Lorsque toutes les définitions de préinstallation sont prêtes, cliquez sur **Installer** pour commencer l’installation des composants du **service et du portail** sélectionnés.
 
-![Image de l’installation du service et du portail MIM](media/MIM-Install16.png)
-
 Une fois l'installation achevée, vérifiez que le portail MIM est actif.
 
 1. Lancez Internet Explorer et connectez-vous au portail MIM à l’adresse *http://corpidm.contoso.local:82/identitymanagement*. Notez qu'un bref délai peut avoir lieu la première fois que vous visitez cette page.
@@ -158,6 +157,6 @@ Une fois l'installation achevée, vérifiez que le portail MIM est actif.
 [Synchroniser les bases de données »](install-mim-sync-ad-service.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

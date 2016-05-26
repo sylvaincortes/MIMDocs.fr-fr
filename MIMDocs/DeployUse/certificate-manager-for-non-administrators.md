@@ -2,7 +2,7 @@
 # required metadata
 
 title: Inscrire des cartes à puce pour les non-administrateurs | Microsoft Identity Manager
-description: Découvrez comment inscrire des cartes à puce pour les utilisateurs sans accès administrateur à leur ordinateur afin de pouvoir utiliser le Gestionnaire de certificats.
+description: Découvrez comment les utilisateurs sans accès administrateur à leur ordinateur peuvent inscrire des cartes à puce afin de pouvoir utiliser le Gestionnaire de certificats.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Inscrire des cartes à puce pour les non-administrateurs
-Si un utilisateur n'est pas un administrateur local sur son ordinateur, par défaut il ne pourra pas inscrire de carte à puce sur son propre ordinateur. La procédure suivante vous permet de contourner cette limitation.
+Si un utilisateur n’est pas un administrateur local sur son ordinateur, par défaut il ne pourra pas inscrire de carte à puce sur son propre ordinateur. La procédure suivante vous permet de contourner cette limitation.
 
 ## Activation du renouvellement de carte à puce pour les non-administrateurs dans le Gestionnaire de certificats MIM 2016
 
@@ -80,7 +80,7 @@ Si un utilisateur n'est pas un administrateur local sur son ordinateur, par déf
 
     3.  Tapez le nom du modèle de profil, ajoutez « nonAdmin » et cliquez sur **OK**.
 
-    4.  Quand les paramètres généraux du modèle de profil s'affichent, faites défiler vers le bas jusqu'au bout et, sous **Configuration de la carte à puce**, cliquez sur **Modifier les paramètres**.
+    4.  Quand les paramètres généraux du modèle de profil s’affichent, faites défiler vers le bas jusqu’au bout et, sous **Configuration de la carte à puce**, cliquez sur **Modifier les paramètres**.
 
     5.  Sous **Valeur initiale de la clé Admin (hexadécimal)** , entrez la clé d'administration par défaut : "010203040506070801020304050607080102030405060708"
 
@@ -90,17 +90,17 @@ Si un utilisateur n'est pas un administrateur local sur son ordinateur, par déf
 
     Les utilisateurs non-administrateurs ne peuvent pas créer la carte à puce virtuelle sur le module de plateforme sécurisée. Vous devez donc la créer pour eux.
 
-6.  **Créer une carte à puce virtuelle à l'aide de TpmVscMgr**
+6.  **Créer une carte à puce virtuelle à l’aide de TpmVscMgr**
 
-    Procédez comme suit (toujours en tant qu'administrateur) pour créer une carte à puce virtuelle vide sur un ordinateur. Vous pouvez effectuer cette procédure via Intune, SCCM ou la stratégie de groupe.
+    Procédez comme suit (toujours en tant qu’administrateur) pour créer une carte à puce virtuelle vide sur un ordinateur. Vous pouvez effectuer cette procédure via Intune, SCCM ou la stratégie de groupe.
 
     `TpmVscMgr create /name MyVSC /pin default /adminkey default /generate`
 
 7.  **Installer l'application CM dans le compte non-administrateur**
 
-8.  **Lancer l'application CM et s'inscrire pour une carte à puce virtuelle**
+8.  **Lancer l’application CM et s’inscrire pour une carte à puce virtuelle**
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

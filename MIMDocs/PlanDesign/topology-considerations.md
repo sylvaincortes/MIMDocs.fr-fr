@@ -2,7 +2,7 @@
 # required metadata
 
 title: Considérations sur la topologie de déploiement MIM | Microsoft Identity Manager
-description: Comprendre les composants MIM 2016 et obtenir des suggestions de déploiement dans votre environnement. 
+description: Comprendre les composants MIM 2016 et obtenir des suggestions de déploiement dans votre environnement.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -59,24 +59,18 @@ Dans cette configuration, le service de synchronisation MIM et sa base de donné
 
 
 ## Topologie à plusieurs niveaux avec plusieurs services MIM
-La synchronisation des données avec les systèmes externes peut ajouter une charge considérable au système sur une période prolongée. Si les résultats de la configuration de la synchronisation provoquent le déclenchement de stratégies avec flux de travail, ces stratégies sont en concurrence pour les ressources des flux de travail de l’utilisateur final. Ces problèmes peuvent être résolus par avec des flux de travail d’authentification, comme la réinitialisation de mot de passe, qui sont effectués en temps réel avec un utilisateur final attendant le résultat du processus. En fournissant une seule instance du service MIM pour les opérations des utilisateurs finaux et un portail distinct pour la synchronisation des données d’administration, vous pouvez assurer une meilleure réactivité des opérations pour les utilisateurs finaux.
+La synchronisation des données avec des systèmes externes peut prendre beaucoup de temps et ajouter une charge de travail considérable au système pendant cette période. Si les résultats de la configuration de la synchronisation provoquent le déclenchement de stratégies avec flux de travail, ces stratégies sont en concurrence pour les ressources des flux de travail de l’utilisateur final. Ces problèmes peuvent être résolus par avec des flux de travail d’authentification, comme la réinitialisation de mot de passe, qui sont effectués en temps réel avec un utilisateur final attendant le résultat du processus. En fournissant une seule instance du service MIM pour les opérations des utilisateurs finaux et un portail distinct pour la synchronisation des données d’administration, vous pouvez assurer une meilleure réactivité des opérations pour les utilisateurs finaux.
 
 ![Diagramme de topologie MIM multiple à plusieurs niveaux](media/MIM-topo-multitier-multiservice.png)
 
 Comme avec la topologie standard à plusieurs niveaux, vous pouvez améliorer les performances du portail MIM à l’aide d’un cluster d’équilibrage de charge réseau ou en augmentant le nombre de nœuds du cluster, en fonction des besoins.
 
-Les performances des ordinateurs avec SQL Server et qui hébergent le service de synchronisation MIM et la base de données du service MIM influencent considérablement les performances globales de votre déploiement MIM. Par conséquent, suivez les recommandations mentionnées dans la documentation de SQL Server afin d’optimiser les performances de vos bases de données. Pour plus d’informations, consultez les documents suivants :
-
-- [10 meilleures pratiques de stockage](http://go.microsoft.com/fwlink/?LinkID=183663)
-
-- [Optimisation des performances de tempdb](http://go.microsoft.com/fwlink/?LinkID=188267)
-
-- [Article sur les meilleures pratiques pour SQL Server](http://go.microsoft.com/fwlink/?LinkID=188268)
+Les ordinateurs SQL Server qui hébergent le service de synchronisation MIM et la base de données du service MIM influencent considérablement les performances globales de votre déploiement MIM. Par conséquent, suivez les recommandations mentionnées dans la documentation de SQL Server afin d’optimiser les performances de vos bases de données. Pour plus d’informations, consultez les documents suivants :
 
 ## Voir aussi
 - La version téléchargeable du [Guide de planification des capacités de Forefront Identity Manager (FIM) 2010](http://go.microsoft.com/fwlink/?LinkId=200180) explique plus en détail les tests et les résultats des tests de performances.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

@@ -60,12 +60,12 @@ Le service PCNS (Password Change Notification Service) est un service que vous i
 
 13. Quand l'écran indiquant la réussite de l'installation apparaît, cliquez sur **Terminer**.
 
-14. Redémarrez votre ordinateur pour que les modifications de configuration apportées au service de notification de modification de mot de passe MIM prennent effet. Vous pouvez pour cela cliquer sur **Oui** dans le menu contextuel qui s'affiche, ou vous pouvez redémarrer l'ordinateur plus tard.
+14. Redémarrez votre ordinateur pour que les modifications de configuration apportées au service de notification de modification de mot de passe MIM prennent effet. Vous pouvez pour cela cliquer sur **Oui** dans la fenêtre contextuelle qui s’affiche, ou vous pouvez redémarrer l’ordinateur plus tard.
 
 ## Configuration du service de notification de modification de mot de passe
 Une fois reconnecté au serveur contrôleur de domaine en tant qu’administrateur de domaine, accédez à *C:\Program Files\Microsoft Password Change Notification*. Exécutez *pcnscfg.exe*.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

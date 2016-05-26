@@ -31,7 +31,10 @@ ms.suite: ems
 [« Service et portail MIM](install-mim-service-portal.md)
 
 > [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> - Nom du contrôleur de domaine : **mimservername**
+> - Nom de domaine : **contoso**
+> - Mot de passe : **Pass@word1**
 
 Par défaut, aucun connecteur n’est configuré pour le service de synchronisation MIM.  Une première étape classique consiste à utiliser la synchronisation MIM pour remplir la base de données du service MIM à l’aide des comptes Active Directory existants. Pour ce faire, vous allez utiliser l'application du service de synchronisation MIM.
 
@@ -40,7 +43,7 @@ L’agent de gestion MIM (MA) est le connecteur qui lie la synchronisation MIM a
 
 Quand vous configurez un agent de gestion MIM, vous devez spécifier un compte d'utilisateur. Dans ce document, **MIMMA** est utilisé comme nom de ce compte.
 
-> [!CAUTION]
+> [!NOTE]
 > Le compte que vous utilisez pour votre agent de gestion MIM doit être le même que celui que vous avez spécifié pendant l'installation du service MIM.
 
 ###Pour créer l'agent de gestion MIM
@@ -89,19 +92,15 @@ Quand vous configurez un agent de gestion MIM, vous devez spécifier un compte d
 
 8.  Dans la page **Configurer les mappages de types d’objet**, ajoutez le mappage suivant, puis cliquez sur **Suivant**
 
-    -   Dans la liste **Type d’objet de source de données**, sélectionnez **Person**.
-
-    -   Pour ouvrir la boîte de dialogue Mappage, cliquez sur **Ajouter un mappage**.
-
-    -   Dans la liste **Type d’objet de métaverse**, sélectionnez **Person**.
-
-    -   Pour fermer la boîte de dialogue Mappage, cliquez sur **OK**.
+    - Dans la liste **Type d’objet de source de données**, sélectionnez **Personne**.
+    - Cliquez sur **Ajouter un mappage** pour ouvrir la boîte de dialogue Mappage.
+    - Dans la liste **Type d’objet de métaverse**, sélectionnez **personne**.
+    - Cliquez sur **OK** pour fermer la boîte de dialogue Mappage.
 
 9.  Dans la page **Configurer un flux de valeur d’attribut**, appliquez les mappages de flux de valeur d’attribut ci-après, puis cliquez sur **Suivant**
 
-    ||||
-    |-|-|-|
     | **Direction du flux** | **Attribut de source de données** | **Attribut de métaverse** |
+    |-|-|-|
     |Importer|Importer|accountName|
     |Importer|Importer|company|
     |Importer|Importer|displayName|
@@ -302,7 +301,7 @@ Pour créer des profils d'exécution pour le connecteur MIMMA :
 
 5. Pour fermer la boîte de dialogue Configurer des profils d’exécution, cliquez sur **OK**.
 
-## Configuration du service MIM
+## Configurer le service MIM
 
 À l’aide du portail MIM, vous allez créer la règle de synchronisation entrante des utilisateurs Active Directory pour le Service MIM.
 
@@ -346,18 +345,18 @@ Pour créer la règle de synchronisation entrante des utilisateurs Active Direct
 
     Pour chaque ligne de ce tableau, procédez comme suit :
 
-    -   Pour ouvrir la boîte de dialogue Définition de flux, cliquez sur **Nouveau flux de valeur d’attribut**.
+    - Pour ouvrir la boîte de dialogue Définition de flux, cliquez sur **Nouveau flux de valeur d’attribut**.
 
-    -   Sous l’onglet **Source**, sélectionnez l’attribut indiqué pour cette ligne dans le tableau.
+    - Sous l’onglet **Source**, sélectionnez l’attribut indiqué pour cette ligne dans le tableau.
 
-    -   Sous l’onglet **Destination**, sélectionnez l’attribut indiqué pour cette ligne dans le tableau.
+    - Sous l’onglet **Destination**, sélectionnez l’attribut indiqué pour cette ligne dans le tableau.
 
-    -   Pour appliquer la configuration du flux de valeur d’attribut, cliquez sur **OK**.
+    - Pour appliquer la configuration du flux de valeur d’attribut, cliquez sur **OK**.
 
 8. Sous l’onglet **Résumé**, cliquez sur **Envoyer**.
 
-## Initialisation de l'environnement de test
-Pour pouvoir tester votre configuration avec vos données Active Directory, vous devez l'initialiser. Ce processus comporte quatre étapes :
+## Initialiser l’environnement de test
+Vous devez effectuer quatre étapes avant de pouvoir tester votre configuration MIM avec des données AD :
 
 ### Activer l’approvisionnement
 
@@ -373,13 +372,12 @@ Pour pouvoir tester votre configuration avec vos données Active Directory, vous
 
 Exécutez un cycle de synchronisation complet sur ce connecteur. Le cycle complet comprend les profils d’exécution suivants :
 
-    -   Full Import
+- Importation intégrale
+- Synchronisation complète
+- Exporter
+- Importation différentielle
 
-    -   Full Synchronization
-
-    -   Export
-
-    -   Delta Import
+Suivez ces étapes pour exécuter chacun des quatre profils d’exécution.
 
 1. Ouvrez le Gestionnaire du service de synchronisation, puis cliquez dans le menu **Outils** sur **Agents de gestion**.
 
@@ -395,19 +393,15 @@ Exécutez un cycle de synchronisation complet sur ce connecteur. Le cycle comple
 
     - Pour démarrer le profil d’exécution, cliquez sur **OK**.
 
-#### Configuration de la précédence des flux de valeur d'attribut
+#### Configurez la précédence des flux de valeur d’attribut
 
-Pendant l'initialisation du connecteur MIM, les règles de synchronisation configurées ont été placées dans le métaverse.
+Pendant l’initialisation du connecteur MIM, les règles de synchronisation configurées ont été placées dans le métaverse.
 
 Changez la précédence des flux de valeur d'attribut pour les attributs fournis par ce connecteur afin de garantir que les attributs déjà présents dans Active Directory peuvent passer dans le métaverse, puis dans la base de données du service MIM.
 
-### Initialisation d'ADMA
+### Initialiser l’ADMA
 
-Pour initialiser le Connecteur Active Directory, vous devez exécuter une importation intégrale et une synchronisation complète sur ce dernier. L'importation intégrale est nécessaire pour transférer les objets existants d'Active Directory vers l'espace connecteur. La synchronisation complète est nécessaire, car les règles de synchronisation ont changé en projetant les nouvelles règles de synchronisation de l'espace connecteur MIM vers le métaverse. Vous allez
-
-    -   Full Import
-
-    -   Full Synchronization
+Pour initialiser le Connecteur Active Directory, vous devez exécuter une importation intégrale et une synchronisation complète sur ce dernier. L’importation intégrale transfère les objets existants d’Active Directory vers l’espace connecteur. La synchronisation complète met à jour les règles de synchronisation pour qu’elles correspondent à celles du connecteur MIM.
 
 1. Ouvrir le Gestionnaire du service de synchronisation, puis cliquer dans le menu **Outils** sur **Agents de gestion**.
 
@@ -423,34 +417,32 @@ Pour initialiser le Connecteur Active Directory, vous devez exécuter une import
 
     - Pour démarrer le profil d’exécution, cliquez sur **OK**.
 
-### Remplissage de la base de données du service MIM
+### Remplir la base de données du service MIM
 
-Pour remplir la base de données du service MIM avec les objets, vous devez exécuter un cycle de synchronisation sur le connecteur MIMMA. Le cycle comprend les exécutions des profils d'exécution suivants :
+Pour remplir la base de données du service MIM avec les objets, vous devez exécuter un cycle de synchronisation sur le connecteur MIMMA. Le cycle se compose des opérations suivantes :
 
-    -   Export
+- Exportation
+- Importation intégrale
+- Synchronisation complète
 
-    -   Full Import
+Suivez ces étapes pour exécuter chacun des trois profils d’exécution.
 
-    -   Full Sync
+1. Ouvrez le Gestionnaire du service de synchronisation, puis cliquez sur **Agents de gestion** dans le menu **Outils**.
 
-    1. Open the Synchronization Service Manager and, on the **Tools** menu, click **Management Agents**.
+2. Dans la liste **Agents de gestion**, sélectionnez **MIMMA**.
 
-    2. In the **Management Agents** list, select **MIMMA**.
+3. Dans le menu **Actions**, cliquez sur **Exécuter** pour ouvrir la boîte de dialogue Exécuter l’agent de gestion.
 
-    3. To open the Run Management Agent dialog box, on the **Actions** menu, click **Run**.
+4. Pour chaque profil de la liste ci-dessus, procédez comme suit :
 
-    4. For each run profile listed above, complete the following steps:
-
-        - To open the Run Management Agent dialog box, on the **Actions** menu, click **Run**.
-
-        - In the **Run profiles** list, select the run profile you want to run.
-
-        - To start the run profile, click **OK**.
+    - Dans le menu **Actions**, cliquez sur **Exécuter** pour ouvrir la boîte de dialogue Exécuter l’agent de gestion.
+    - Dans la liste **Profils d’exécution**, sélectionnez le profil d’exécution à configurer.
+    - Cliquez sur **OK** pour démarrer le profil d’exécution.
 
 >[!div class="step-by-step"]
 [« Service et portail MIM](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

@@ -32,23 +32,24 @@ ms.suite: ems
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 > [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> - Nom du contrôleur de domaine : **mimservername**
+> - Nom de domaine : **contoso**
+> - Mot de passe : **Pass@word1**
 
 ## Joindre votre domaine Windows Server 2012 R2
 
-1. Créez un ordinateur Windows Server 2012 R2, avec un minimum de 8 Go de RAM. Lors de l'installation, spécifiez l'édition « Windows Server 2012 R2 (serveur avec une interface graphique utilisateur) x64 ».
+Commencez avec un ordinateur Windows Server 2012 R2, avec un minimum de 8 Go de RAM. Lors de l'installation, spécifiez l'édition « Windows Server 2012 R2 (serveur avec une interface graphique utilisateur) x64 ».
 
-2. Ouvrez une session sur le nouvel ordinateur en tant qu'administrateur.
+1. Ouvrez une session sur le nouvel ordinateur en tant qu'administrateur.
 
-3. Utilisez le panneau de configuration, donnez une adresse IP statique à l’ordinateur sur le réseau. Configurez cette interface réseau pour envoyer des requêtes DNS à l’adresse IP du contrôleur de domaine à l’étape précédente et nommez l’ordinateur **CORPIDM**.  Cette opération nécessite un redémarrage du serveur.
+2. Utilisez le panneau de configuration, donnez une adresse IP statique à l’ordinateur sur le réseau. Configurez cette interface réseau pour envoyer des requêtes DNS à l’adresse IP du contrôleur de domaine à l’étape précédente et nommez l’ordinateur **CORPIDM**.  Cette opération nécessite un redémarrage du serveur.
 
-4. Si l'ordinateur est sur un réseau virtuel qui ne fournit pas de connectivité Internet, ajoutez-y une interface réseau supplémentaire qui fournit une connexion à Internet.  Cette connexion est nécessaire pour l’installation de SharePoint et vous pourrez la désactiver une fois cette étape terminée.
+3. Ouvrez le Panneau de configuration et joignez l’ordinateur au domaine que vous avez configuré dans la dernière étape, *contoso.local*.  Vous devrez fournir le nom d’utilisateur et les informations d’identification d’un administrateur de domaine tel que *Contoso\Administrateur*.  Après l'affichage du message de bienvenue, fermez la boîte de dialogue et redémarrez ce serveur.
 
-5. Ouvrez le Panneau de configuration et joignez l’ordinateur au domaine que vous avez configuré dans la dernière étape, *contoso.local*.  Vous devrez fournir le nom d’utilisateur et les informations d’identification d’un administrateur de domaine tel que *Contoso\Administrateur*.  Après l'affichage du message de bienvenue, fermez la boîte de dialogue et redémarrez ce serveur.
+4. Connectez-vous à l’ordinateur *CorpIDM* en tant qu’administrateur de domaine, comme *Contoso\Administrateur*.
 
-6. Connectez-vous à l’ordinateur *CorpIDM* en tant qu’administrateur de domaine, comme *Contoso\Administrateur*.
-
-7. Lancez une fenêtre PowerShell en tant qu’administrateur et tapez la commande suivante pour mettre à jour l’ordinateur avec les paramètres de stratégie de groupe.
+5. Lancez une fenêtre PowerShell en tant qu’administrateur et tapez la commande suivante pour mettre à jour l’ordinateur avec les paramètres de stratégie de groupe.
 
     ```
     gpupdate /force /target:computer
@@ -56,11 +57,11 @@ ms.suite: ems
 
     Au bout d’une minute maximum, la commande se termine et affiche le message « La mise à jour de la stratégie d’ordinateur s’est terminée sans erreur ».
 
-8. Ajoutez les rôles **Serveur Web (IIS)** et **Serveur d’applications**, les fonctionnalités **.NET Framework** 3.5, 4.0 et 4.5 et le module **Active Directory** pour Windows PowerShell.
+6. Ajoutez les rôles **Serveur Web (IIS)** et **Serveur d’applications**, les fonctionnalités **.NET Framework** 3.5, 4.0 et 4.5 et le module **Active Directory** pour Windows PowerShell.
 
     ![Image des fonctionnalités de PowerShell](media/MIM-DeployWS2.png)
 
-9. Dans PowerShell, toujours en tant qu’administrateur, tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités **.NET Framework** 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS) au sein du dossier de sources du disque d’installation du système d’exploitation, par exemple « *d:\Sources\SxS\* ».
+7. Dans PowerShell, tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités **.NET Framework** 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS) au sein du dossier de sources du disque d’installation du système d’exploitation, par exemple « *d:\Sources\SxS\* ».
 
     ```
     import-module ServerManager
@@ -104,17 +105,17 @@ Configurez la stratégie de sécurité de serveur pour autoriser les comptes ré
 
 2.  Arrêtez les services IIS à l’aide de la commande *iisreset /STOP*.
 
-        ```
-        iisreset /STOP
-        C:\Windows\System32\inetsrv\appcmd.exe unlock config /section:windowsAuthentication -commit:apphost
-        iisreset /START
-        ```
+    ```
+    iisreset /STOP
+    C:\Windows\System32\inetsrv\appcmd.exe unlock config /section:windowsAuthentication -commit:apphost
+    iisreset /START
+    ```
 
 >[!div class="step-by-step"]  
 [« Préparation d’un domaine](preparing-domain.md)
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

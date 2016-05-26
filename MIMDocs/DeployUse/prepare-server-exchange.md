@@ -2,7 +2,7 @@
 # required metadata
 
 title: Configurer un serveur de gestion des identités&#58; Exchange | Microsoft Identity Manager
-description: Une étape facultative consiste à déployer Exchange Server pour permettre à MIM 2016 d’envoyer des courriers électroniques et de créer des boîtes aux lettres. 
+description: Une étape facultative consiste à déployer Exchange Server pour permettre à MIM 2016 d’envoyer des courriers électroniques et de créer des boîtes aux lettres.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -31,11 +31,8 @@ ms.suite: ems
 [« SharePoint](prepare-server-sharepoint.md)
 [Service de synchronisation MIM »](install-mim-sync.md)
 
-> [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
-
 ## déployer Microsoft Exchange Server
-Si vous souhaitez configurer MIM pour envoyer et recevoir du courrier électronique ou approvisionner des boîtes aux lettres, Exchange doit être présent dans l'environnement. Si vous n'avez pas encore déployé Exchange, vous pouvez installer une version d'évaluation.
+Si vous souhaitez configurer MIM pour envoyer et recevoir du courrier électronique ou approvisionner des boîtes aux lettres, Exchange doit être présent dans l'environnement. Si vous n’avez pas encore déployé Exchange, vous pouvez installer une version d’évaluation :
 
 1. Télécharger et installer Microsoft Office 2010 Filter Packs - Version 2.0 + Microsoft Office 2010 Filter Packs - Version 2.0 SP1
 
@@ -52,6 +49,6 @@ Si vous souhaitez configurer MIM pour envoyer et recevoir du courrier électroni
 [Service de synchronisation MIM »](install-mim-sync.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 
