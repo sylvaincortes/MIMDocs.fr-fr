@@ -32,7 +32,10 @@ ms.suite: ems
 [SharePoint »](prepare-server-sharepoint.md)
 
 > [!NOTE]
-> Dans tous les exemples ci-dessous, **mimservername** représente le nom de votre contrôleur de domaine, **contoso** représente votre nom de domaine, et **Pass@word1** représente un exemple de mot de passe.
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> - Nom du contrôleur de domaine : **mimservername**
+> - Nom de domaine : **contoso**
+> - Mot de passe : **Pass@word1**
 
 ## Installer **SQL Server 2014 Standard Edition**
 
@@ -51,6 +54,6 @@ ms.suite: ems
 [SharePoint »](prepare-server-sharepoint.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 
