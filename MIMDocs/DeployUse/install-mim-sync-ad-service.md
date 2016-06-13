@@ -27,8 +27,7 @@ ms.suite: ems
 
 # Installer MIM 2016 : synchroniser Active Directory et le service MIM
 
->[!div class="step-by-step"]
-[« Service et portail MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"] [« Service et portail MIM](install-mim-service-portal.md)
 
 > [!NOTE]
 > Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
@@ -43,8 +42,7 @@ L’agent de gestion MIM (MA) est le connecteur qui lie la synchronisation MIM a
 
 Quand vous configurez un agent de gestion MIM, vous devez spécifier un compte d'utilisateur. Dans ce document, **MIMMA** est utilisé comme nom de ce compte.
 
-> [!NOTE]
-> Le compte que vous utilisez pour votre agent de gestion MIM doit être le même que celui que vous avez spécifié pendant l'installation du service MIM.
+> [!NOTE] Le compte que vous utilisez pour votre agent de gestion MIM doit être le même que celui que vous avez spécifié pendant l’installation du service MIM.
 
 ###Pour créer l'agent de gestion MIM
 
@@ -99,69 +97,69 @@ Quand vous configurez un agent de gestion MIM, vous devez spécifier un compte d
 
 9.  Dans la page **Configurer un flux de valeur d’attribut**, appliquez les mappages de flux de valeur d’attribut ci-après, puis cliquez sur **Suivant**
 
-    | **Direction du flux** | **Attribut de source de données** | **Attribut de métaverse** |
+    | **Attribut de source de données** | **Direction du flux** | **Attribut de métaverse** |
     |-|-|-|
-    |Importer|Importer|accountName|
-    |Importer|Importer|company|
-    |Importer|Importer|displayName|
-    |Importer|Importer|employeeID|
-    |Importer|Importer|employeeType|
-    |Importer|Importer|firstName|
-    |Importer|Importer|lastName|
-    |Importer|Importer|Manager|
-    |Importer|Importer|objectSid|
-    |Exporter|Exporter|accountName|
-    |Exporter|Exporter|company|
-    |Exporter|Exporter|displayName|
-    |Exporter|Exporter|domaine|
-    |Exporter|Exporter|employeeID|
-    |Exporter|Exporter|employeeType|
-    |Exporter|Exporter|firstName|
-    |Exporter|Exporter|lastName|
-    |Exporter|Exporter|manager|
-    |Exporter|Exporter|objectSid|
+    | AccountName | Exporter | accountName |
+    | DisplayName | Exporter | displayName |
+    | Domaine | Exporter | domaine |
+    | EmployeeID | Exporter | employeeID |
+    | EmployeeType | Exporter | employeeType |
+    | Courrier électronique | Exporter | messagerie |
+    | Prénom | Exporter | firstName |
+    | Nom | Exporter | lastName |
+    | ObjectSID | Exporter | objectSid |
 
 10.  Sélectionnez **Person** en tant que type d’objet de source de données.
 
-    -   Select **Person** as the Metaverse object type.
+    -   Sélectionnez **Person** en tant que Type d’objet de métaverse.
 
-    -   Select **Direct** as the Mapping Type.
+    -   Sélectionnez **Direct** en tant que Type de mappage.
 
-    -   For each row in the previous table, complete the following steps:
+    -   Pour chaque ligne du tableau précédent, procédez comme suit :
 
-        -   Select the **Flow direction** shown for that row in the table.
+        -   Sélectionnez la **direction de flux** indiquée pour cette ligne dans le tableau.
 
-        -   Select the **Data source attribute** shown for that row in the table.
+        -   Sélectionnez l’**attribut de source de données** indiqué pour cette ligne dans le tableau.
 
-        -   Select the **Metaverse attribute** shown for that row in the table.
+        -   Sélectionnez l’**attribut de métaverse** indiqué pour cette ligne dans le tableau.
 
-        -   To apply the flow mapping, click **New**.
+        -   Pour appliquer le mappage de flux, cliquez sur **Nouveau**.
 
-    -   Select **Group** as the data source type and as the metaverse object type.
+    -   Sélectionnez **Group** pour le type de source de données et le type d’objet de métaverse.
 
-    -   Select **Direct** as the Mapping Type.
+    -   Sélectionnez **Direct** en tant que Type de mappage.
 
-    -   For each row in the following table, complete these steps:
+    -   Pour chaque ligne du tableau suivant, procédez comme suit :
 
-        -   Select the **Flow direction** shown for that row in the table.
+        -   Sélectionnez la **direction de flux** indiquée pour cette ligne dans le tableau.
 
-        -   Select the **Data source attribute** shown for that row in the table.
+        -   Sélectionnez l’**attribut de source de données** indiqué pour cette ligne dans le tableau.
 
-        -   Select the **Metaverse attribute** shown for that row in the table.
+        -   Sélectionnez l’**attribut de métaverse** indiqué pour cette ligne dans le tableau.
 
-        -   To apply the flow mapping, click **New**.
+        -   Pour appliquer le mappage de flux, cliquez sur **Nouveau**.
 
-    | Flow Direction | Data Source Attribute | Metaverse Attribute |
+    | **Attribut de source de données** | **Direction du flux** | **Attribut de métaverse** |
     |-|-|-|
-    | Export | AccountName | accountName |
-    | Export | DisplayName | displayName |
-    | Export | Domain | domain |
-    | Export | Scope | scope |
-    | Export | Type | type |
-    | Export | Member | member |
-    | Export | MembershipLocked | membershipLocked |
-    | Export | MembershipAddWorkflow | membershipAddWorkflow |
-    | Export | Manager | manager |
+    | AccountName | Exporter | accountName |
+    | DisplayName | Exporter | displayName |
+    | Domaine | Exporter | domaine |
+    | Courrier électronique | Exporter | messagerie |
+    | MailNickName | Exporter | mailNickName |
+    | Membre | Exporter | membre |
+    | ObjectSID | Exporter | objectSid |
+    | Étendue | Exporter | scope |
+    | Type | Exporter | type |
+    | MembreshipAddWorkflow | Exporter | membershipAddWorkflow |
+    | MembreshipLocked | Exporter | membershipLocked |
+    | DisplayName | Importer | displayName |
+    | Étendue | Importer | scope |
+    | Type | Importer | type |
+    | Membre | Importer | membre |
+    | AccountName | Importer | accountName |
+    | DisplayedOwner | Importer | displayedOwner |
+    | MailNickName | Importer | mailNickName |
+
 
 11.  Dans la page **Configurer l’annulation de mise en service**, cliquez sur **Suivant**.
 
@@ -181,7 +179,7 @@ L’agent de gestion Active Directory est un connecteur pour les services de dom
 
     - Nom de la forêt : contoso.local
     - Nom d'utilisateur : administrateur
-    - Mot de passe : &lt;mot de passe du compte|gt;
+    - Mot de passe : &lt;mot de passe du compte&gt;
     - Domaine : contoso
 
 4. Dans la page **Configurer les partitions d’annuaire**, indiquez les paramètres ci-après, puis cliquez sur **Suivant** :
@@ -439,10 +437,9 @@ Suivez ces étapes pour exécuter chacun des trois profils d’exécution.
     - Dans la liste **Profils d’exécution**, sélectionnez le profil d’exécution à configurer.
     - Cliquez sur **OK** pour démarrer le profil d’exécution.
 
->[!div class="step-by-step"]
-[« Service et portail MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"] [« Service et portail MIM](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 
