@@ -21,7 +21,7 @@ ms.assetid: 90d66a75-a7ec-4fa1-911c-cce683908838
     <section id="hero-content">
       <h1>Documentation Microsoft Identity Manager</h1>
       <h2>Microsoft Identity Manager (MIM) offre des fonctionnalités locales de gestion des identités et des accès, notamment la synchronisation des identités, l’usurpation d’identité et plus encore</h2>
-      <h3>Vous ne connaissez pas MIM ? <a href="http://www.microsoft.com/en-us/server-cloud/products/microsoft-identity-manager/" target="\_blank">Visiter la page du produit &rarr;</a></h3>     
+      <h3>Vous ne connaissez pas MIM ? <a href="http://go.microsoft.com/fwlink/?LinkId=816853" target="\_blank">Visiter la page du produit &rarr;</a></h3>     
     </section>
     <aside class="alert section-border">
       <p>Prêt à vous lancer ?</p>
@@ -140,6 +140,6 @@ ms.assetid: 90d66a75-a7ec-4fa1-911c-cce683908838
 </article>
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO4-->
 
 
