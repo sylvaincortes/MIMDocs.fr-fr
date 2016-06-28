@@ -67,7 +67,9 @@
   "notification_subscribers": [
     "OPBuild@microsoft.com"
   ],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+    "master-oldev"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/MIMDocs.fr-fr",
   "skip_source_output_uploading": false
 }
