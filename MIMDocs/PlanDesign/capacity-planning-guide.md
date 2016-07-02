@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Guide de planification des capacités | Microsoft Identity Manager
-description: Utilisez ce guide pour comprendre les variables à prendre en compte avant de déployer MIM 2016, y compris les niveaux de charge et les décisions de stratégie.
-keywords:
+title: "Guide de planification des capacités | Microsoft Identity Manager"
+description: "Utilisez ce guide pour comprendre les variables à prendre en compte avant de déployer MIM 2016, y compris les niveaux de charge et les décisions de stratégie."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 05/13/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 3ac5b990-1678-4996-996d-cbd84b8426b4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0ea8b3d9032a01bd6a6b1faad8ea27d2cb889fc6
+ms.openlocfilehash: 323a875aba14a238aa7cb3a0e6df192729ce53d6
+
 
 ---
 
@@ -100,6 +94,7 @@ La configuration de stratégie MIM comprend également des décisions sur l’ap
 - La version téléchargeable du [Guide de planification des capacités de Forefront Identity Manager (FIM) 2010](http://go.microsoft.com/fwlink/?LinkId=200180) explique plus en détail les tests et les résultats des tests de performances.
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

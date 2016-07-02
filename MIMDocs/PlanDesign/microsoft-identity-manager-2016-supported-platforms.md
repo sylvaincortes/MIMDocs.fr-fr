@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Plateformes prises en charge pour MIM 2016 | Microsoft Identity Manager
-description: Découvrez les produits et les versions compatibles avec les composants MIM 2016
-keywords:
+title: "Plateformes prises en charge pour MIM 2016 | Microsoft Identity Manager"
+description: "Découvrez les produits et les versions compatibles avec les composants MIM 2016"
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 4978f60d-044d-4e84-8d93-65801fce1144
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: a59e7471a8aaafc6752c9be34d52fd3509104dec
+ms.openlocfilehash: bb3e3abfdc12d78108676d4a9f029531d9df17fd
+
 
 ---
 
@@ -64,6 +58,7 @@ ms.suite: ems
 || Navigateur web | Internet Explorer 7, 8, 9, 10 ou 11 avec Silverlight |
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
