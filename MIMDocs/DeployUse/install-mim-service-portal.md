@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Installer MIM 2016&#58; le service MIM et le portail | Microsoft Identity Manager
-description: Obtenir les étapes pour configurer et installer le service et le portail MIM pour Microsoft Identity Manager 2016
-keywords:
+title: "Installer MIM 2016&#58; le service MIM et le portail | Microsoft Identity Manager"
+description: "Obtenir les étapes pour configurer et installer le service et le portail MIM pour Microsoft Identity Manager 2016"
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: b0b39631-66df-4c5f-80c9-a1774346f816
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c023d147d0fcc1525fefbe866c952e217f7bee6b
+ms.openlocfilehash: eb2af412d9638035de591197fa191e990ade0ca1
+
 
 ---
 
@@ -157,6 +151,7 @@ Une fois l'installation achevée, vérifiez que le portail MIM est actif.
 [Synchroniser les bases de données »](install-mim-sync-ad-service.md)
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

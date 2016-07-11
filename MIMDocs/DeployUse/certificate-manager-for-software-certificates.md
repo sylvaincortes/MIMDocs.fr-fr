@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Créer des certificats logiciels | Microsoft Identity Manager
-description: Découvrez comment utiliser le Gestionnaire de certificats pour créer et renouveler des certificats logiciels avec les modèles de profil.
-keywords:
+title: "Créer des certificats logiciels | Microsoft Identity Manager"
+description: "Découvrez comment utiliser le Gestionnaire de certificats pour créer et renouveler des certificats logiciels avec les modèles de profil."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: fed5ada9-d80f-4825-aad7-4172ac5d71d3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 6b58093744656b9bfa62c1cfcab340ea88e6e168
+
 
 ---
 
@@ -82,7 +76,7 @@ Pour inscrire et renouveler des certificats logiciels, vous n'êtes pas obligé 
 
 1.  Connectez-vous au portail CM en tant qu'utilisateur disposant de privilèges d'administrateur.
 
-2.  Accédez à **Administration &gt; Gérer les modèles de profils** , assurez-vous que la case est cochée en regard de l' **exemple de modèle de profil de connexion par carte à puce MIM CM** , puis cliquez sur **Copier un modèle de profil sélectionné**.
+2.  Accédez à **Administration &gt; Gérer les modèles de profils**, vérifiez que la case est cochée en regard de l’**exemple de modèle de profil de connexion par carte à puce MIM CM**, puis cliquez sur **Copier un modèle de profil sélectionné**.
 
 3.  Tapez le nom du modèle de profil, puis cliquez sur **OK**.
 
@@ -103,6 +97,7 @@ Pour inscrire et renouveler des certificats logiciels, vous n'êtes pas obligé 
 11. Si vous utilisez la Gestion des certificats de cartes à puce virtuelles, vous devez désactiver les éléments de collection de données, car elle ne fonctionne pas quand la collection de données est activée. Désactivez la collection de données pour chaque stratégie. Pour ce faire, cliquez sur la stratégie dans le volet gauche, décochez la case en regard d' **Élément de données exemple** , puis cliquez sur **Supprimer les éléments de la collection de données**. Cliquez sur **OK**.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

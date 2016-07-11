@@ -17,9 +17,10 @@
 ## [Gestionnaire de certificats MIM](working-with-mim-certificate-manager.md)
 ### [Inscrire des cartes à puce](certificate-manager-for-non-administrators.md)
 ### [Créer des certificats logiciels](certificate-manager-for-software-certificates.md)
+# [Utiliser Privileged Access Management](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services)
 # [Référence pour les développeurs](/microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference)
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO3-->
 
 

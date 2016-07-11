@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Microsoft Identity Manager 2016 | Microsoft Identity Manager
-description: Découvrez le fonctionnement de MIM 2016 pour créer une expérience de gestion d’identité plus sûre et plus pratique dans le cloud et sur site.
-keywords:
+title: "Microsoft Identity Manager 2016 | Microsoft Identity Manager"
+description: "Découvrez le fonctionnement de MIM 2016 pour créer une expérience de gestion d’identité plus sûre et plus pratique dans le cloud et sur site."
+keywords: 
 author: kgremban
-manager: stevenpo
-ms.date: 04/28/2016
+manager: femila
+ms.date: 06/27/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: ccdd8a9f-02da-440a-81a8-354800dcd2a8
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
+ms.openlocfilehash: 5247cce895344ac6148b735fe550eb16c39103c7
+
 
 ---
 
@@ -36,21 +30,10 @@ Microsoft Identity Manager 2016 fonctionne avec Azure pour vous procurer le con
 ## Privileged Identity Management
 Privileged Identity Management contrôle et gère l’accès administratif en fournissant un accès temporaire et basé sur des tâches aux ressources sensibles. Cela signifie que vous pouvez accorder aux utilisateurs uniquement les autorisations dont ils ont besoin, ce qui réduit le risque qu’un pirate informatique obtienne un accès administratif complet. En outre, Privileged Identity Management extrait et isole les comptes d'administration des forêts Active Directory existantes.
 
-## Plateformes prises en charge
-
-MIM prend en charge une liste mise à jour de produits et de plateformes, y compris les toutes dernières plateformes Microsoft et piles Office/serveur, le système d'exploitation de client Windows, le système d'exploitation de serveur Windows, SharePoint, SQL et Outlook, en particulier :
-
--   Windows 8.1 avec Internet Explorer 8 et versions ultérieures
-
--   Windows Server 2012 R2
-
--   SQL 2014
-
--   Outlook 2013
-
--   System Center Service Manager 2012 et 2012 R2
+MIM prend en charge une solution Privileged Identity Management locale pour la gestion d’Active Directory. Pour commencer, [Utiliser Privileged Access Management](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services).
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 

@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Utilisation de la création de rapports hybrides Identity Manager | Microsoft Identity Manager
-description: Découvrez comment combiner les données locales et les données du cloud dans des rapports hybrides dans Azure et comment gérer et afficher ces rapports.
-keywords:
+title: "Utilisation de la création de rapports hybrides Identity Manager | Microsoft Identity Manager"
+description: "Découvrez comment combiner les données locales et les données du cloud dans des rapports hybrides dans Azure et comment gérer et afficher ces rapports."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 68df2817-2040-407d-b6d2-f46b9a9a3dbb
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: e2d0bd6120628d4fd2a14718fc205cde976c7785
+
 
 ---
 
@@ -105,9 +99,10 @@ Les événements générés par Microsoft Identity Manager sont enregistrés dan
 |Type d'événement|ID|Détails de l'événement|
 |--------------|------|-----------------|
 |Informations|4121|Données d’événement MIM qui incluent toutes les données de la demande.|
-|Informations|4137|Extension de l’événement MIM 4121, au cas où le volume de données serait trop important pour un événement unique. L'en-tête de cet événement se présente sous la forme suivante : `"Request: <GUID> , message <xxx> out of <xxx>`|
+|Informations|4137|Extension de l’événement MIM 4121, au cas où le volume de données serait trop important pour un événement unique. L’en-tête de cet événement a la forme suivante : `"Request: <GUID> , message <xxx> out of <xxx>`|
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
