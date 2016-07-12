@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 3
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 14
-[ In Sync Handback Files ](#insync-handback-success-list)| 30
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 13
+[ In Sync Handback Files ](#insync-handback-success-list)| 31
 [ Ignored Files ](#ignored-list)| 109
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -184,7 +184,6 @@
  Source File | Status | Details 
  ----------- | ------ | ------- 
  [MIMDocs\DeployUse\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/8d151e15ea35fbaf14e8b55697f3fad9858d2aed/MIMDocs/DeployUse/TOC.md) | OutofSyncHandedBackSuccess | [Details](#15f742d950ce73c665c5c7c1644a23153d6aa36371)
- [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-self-service-password-reset.md) | OutofSyncHandedBackSuccess | [Details](#3a4350e54383dc1098c778090bb29b435082045f74)
  [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/6b6e324c2c2400145573c00c964c69d01ecf7e39/MIMDocs/index.md) | OutofSyncHandedBackSuccess | [Details](#e3e755779dfa60f0f5b2af0d4aae25de6b07afa680)
  [MIMDocs\pam\configuring-mim-environment-for-pam.md](https://github.com/Microsoft/MIMDocs-pr/blob/9cf126d898c93faf89d7119136cce4e4963bb63d/MIMDocs/pam/configuring-mim-environment-for-pam.md) | OutofSyncHandedBackSuccess | [Details](#c9f2cf2ba1f42ea1513ae38d8089839d85ae5553197)
  [MIMDocs\pam\defining-roles-for-pam.md](https://github.com/Microsoft/MIMDocs-pr/blob/b8af77d2354428da19d91d5f02b490012835f544/MIMDocs/pam/defining-roles-for-pam.md) | OutofSyncHandedBackSuccess | [Details](#7ba6f744f7fb7a1c5052b14669aa3de2cd10ddbb198)
@@ -216,6 +215,7 @@
  [MIMDocs\DeployUse\preparing-domain.md](https://github.com/Microsoft/MIMDocs-pr/blob/b2578d50f855486183ae182330bacb688011c273/MIMDocs/DeployUse/preparing-domain.md) | InSyncHandedBackSuccess | [Details](#b84a6c7c7b53a122eefc3846ba93b92b34edb6ce70)
  [MIMDocs\DeployUse\working-with-identity-manager-hybrid-reporting.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-identity-manager-hybrid-reporting.md) | InSyncHandedBackSuccess | [Details](#e2d0bd6120628d4fd2a14718fc205cde976c778572)
  [MIMDocs\DeployUse\working-with-mim-certificate-manager.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-mim-certificate-manager.md) | InSyncHandedBackSuccess | [Details](#3e0e6cea0b268836bb6347e81694deec93320ce373)
+ [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-self-service-password-reset.md) | InSyncHandedBackSuccess | [Details](#3a4350e54383dc1098c778090bb29b435082045f74)
  [MIMDocs\GetStarted\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/9c9ada27ad1efe6b4b5154677de163afcbd1c850/MIMDocs/GetStarted/TOC.md) | InSyncHandedBackSuccess | [Details](#260aec3bd3dd61ecfd8abbeb1a01aa9d7126baa879)
  [MIMDocs\microsoft-identity-manager-2016-release-notes.md](https://github.com/Microsoft/MIMDocs-pr/blob/62108908497d1dcf69579ba144545346b6a42266/MIMDocs/microsoft-identity-manager-2016-release-notes.md) | InSyncHandedBackSuccess | [Details](#12f245624e644b12825239e378a26752f7a86846196)
  [MIMDocs\pam\high-availability-disaster-recovery-considerations-bastion-environment.md](https://github.com/Microsoft/MIMDocs-pr/blob/9e5f51d5ca731b3564b8262db0f4cddeb850231a/MIMDocs/pam/high-availability-disaster-recovery-considerations-bastion-environment.md) | InSyncHandedBackSuccess | [Details](#1d9e005bfb3e26f9a2b818667f14acd3e5239523202)
@@ -1286,15 +1286,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='3a4350e54383dc1098c778090bb29b435082045f74'></a> Source: [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-self-service-password-reset.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/20a17e1226ea97c60f527502109d064aed2490ff/MIMDocs/DeployUse/working-with-self-service-password-reset.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/7191e9da60a66157d0931e62f06ec4ea04cca16a/MIMDocs/DeployUse/working-with-self-service-password-reset.md)
 * Handoff File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/d234d9c5aa1169957afde22945155be6db78a6e2/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf)
 * Handoff Datetime: 2016-06-27 09:05:27
 * Handoff Reason: Include
 * Archive File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/558ad5d42b95b6f1ee7fa8199da93645db69c71b/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf)
 * Archive Datetime: 2016-07-01 23:23:18
-* Handback File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/feab63861e427248339713efa3b4092e4d33b163/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf)
-* Handback Datetime: 2016-05-03 20:39:22
+* Handback File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/a2775765c5bfdd64b776e09a730907903f25bdfe/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.fr-fr.xlf)
+* Handback Datetime: 2016-07-12 01:15:59
 * [Back to Top](#report-top)
 
 ##### <a name='7b88b366e20b6808cf325aac8aa874ee408c020975'></a> Source: [MIMDocs\docfx.json](https://github.com/Microsoft/MIMDocs-pr/blob/e0261b00d5df35458d2b1bfc54e9481c5778bfdd/MIMDocs/docfx.json)
