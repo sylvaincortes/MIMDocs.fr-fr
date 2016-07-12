@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Utilisation de la réinitialisation de mot de passe en libre-service | Microsoft Identity Manager
-description: Consultez les nouveautés de la réinitialisation de mot de passe libre-service dans MIM 2016, y compris comment SSPR fonctionne avec l’authentification multifacteur. 
-keywords:
+title: "Utilisation de la réinitialisation de mot de passe en libre-service | Microsoft Identity Manager"
+description: "Consultez les nouveautés de la réinitialisation de mot de passe libre-service dans MIM 2016, y compris comment SSPR fonctionne avec l’authentification multifacteur."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 94a74f1c-2192-4748-9a25-62a526295338
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 3a4350e54383dc1098c778090bb29b435082045f
+
 
 ---
 
@@ -73,7 +67,7 @@ Dans la section suivante, vous allez configurer votre fournisseur Azure MFA dans
 
 2.  Dans le coin inférieur gauche, cliquez sur **Nouveau**.
 
-3.  Cliquez sur **Services d'application &gt; Active Directory &gt; Fournisseur d'authentification multifacteur &gt; Création rapide**.
+3.  Cliquez sur **Services d’application &gt; Active Directory &gt; Fournisseur d’authentification multifacteur &gt; Création rapide**.
 
 ![Création rapide d’une image MFA sur le portail Azure](media/MIM-SSPR-Azureportal.png)
 
@@ -211,6 +205,7 @@ En installant les compléments et extensions MIM sur un ordinateur joint au doma
     ![Image de la réinitialisation du mot de passe avec l’Assistant de connexion MIM](media/MIM-SSPR-PR1.JPG)
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
