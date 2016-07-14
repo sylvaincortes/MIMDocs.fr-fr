@@ -33,6 +33,6 @@ Les lecteurs où seront stockées les images de disques de machines virtuelles d
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
