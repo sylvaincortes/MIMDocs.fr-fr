@@ -20,7 +20,8 @@ ms.openlocfilehash: b21e2fed4588572fd1b793c4942860871ae9a51c
 
 # Étape 6 – Effectuer la transition d'un groupe vers Privileged Access Management
 
->[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+>[!div class="step-by-step"]
+[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
 [Étape 7 »](step-7-elevate-user-access.md)
 
 La création d’un compte privilégié dans la forêt PRIV s’effectue à l’aide d’applets de commande PowerShell. Ces applets de commande remplissent les fonctions suivantes :
@@ -82,11 +83,12 @@ Les applets de commande doivent être exécutées une fois pour chaque groupe et
 
 Si vous souhaitez démontrer que les droits d’accès entre forêts sont efficaces pour le compte d’administrateur de l’utilisateur, passez à l’étape suivante.
 
->[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+>[!div class="step-by-step"]
+[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
 [Étape 7 »](step-7-elevate-user-access.md)
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 

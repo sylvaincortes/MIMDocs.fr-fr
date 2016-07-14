@@ -37,10 +37,11 @@ Ces étapes sont présentées pour que vous puissiez partir de zéro et créer u
 
 7.  Démontrer la demande, la réception et l'utilisation de l'accès élevé privilégié à une ressource protégée.
 
->[!div class="step-by-step"] [Étape »](step-1-prepare-corp-domain.md)
+>[!div class="step-by-step"]
+[[!div class="step-by-step"] [Étape »](step-1-prepare-corp-domain.md)](step-1-prepare-corp-domain.md)
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
