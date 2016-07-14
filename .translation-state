@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "e0261b00d5df35458d2b1bfc54e9481c5778bfdd",
-  "LastTranslatedCommit": "6ced26aee3e7ec630f325fec32feb2d1f2d9ee37",
+  "LastTranslatedCommit": "6c83cd0c29c3a6144381ede8c8957a110f26e2a9",
   "Items": {
     "c1e15c9548e46cbbff7810e63478074ceeb06152": {
       "FileHash": "c1e15c9548e46cbbff7810e63478074ceeb06152",
@@ -15695,7 +15695,7 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "2016-07-14T06:24:57.0125205Z",
+      "HandbackDateTime": "2016-07-14T06:51:56.6669471Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\e189a7\\ol-handback\\Microsoft\\MIMDocs-pr.fr-fr\\master\\step-5-establish-trust-between-priv-corp-forests.fde2d78c7546a64b8b6a7c4e6606df9e68523c62.fr-fr.xlf failed.",
@@ -15705,7 +15705,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 5,
+      "HandbackFailureTimes": 1,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\MIMDocs-pr.fr-fr\\master\\archive\\step-5-establish-trust-between-priv-corp-forests.fde2d78c7546a64b8b6a7c4e6606df9e68523c62.fr-fr.xlf",
       "ArchiveFileCommit": "558ad5d42b95b6f1ee7fa8199da93645db69c71b",
