@@ -1,45 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/a63ee7c239fd47bf78f6ff60ca516a612753539d/MIMDocs/DeployUse/install-mim-sync-ad-service.md) | OutofSyncHandedBackSuccess | [Details](#a095f58b7f95000db9fe385e53d09c62fb109dc010)
- [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr/blob/3b6b7df0a2836f23795c5bc6d5af6c561d361331/MIMDocs/toc.md) | OutofSyncHandedBackSuccess | [Details](#84a2f5e4796c1d7e0a407cfc4a336de1bf65c5f3288)
 
 ## Item Details
-##### <a name='a095f58b7f95000db9fe385e53d09c62fb109dc010'></a> Source: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/a63ee7c239fd47bf78f6ff60ca516a612753539d/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/11fe7e6ee88aa32b90aebf7526ee751d15ada2eb/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf)
-* Handoff Datetime: 2016-07-14 16:52:55
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/b7e26356f8ce76b038bf84f5fcac8c3868c27ef9/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Current Handback File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/da56af89e9b2b212834770974012fc5b9e4ddafe/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf)
-* Current Handback Datetime: 2016-07-13 08:49:39
-* [Back to Top](#report-top)
-
-##### <a name='84a2f5e4796c1d7e0a407cfc4a336de1bf65c5f3288'></a> Source: [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr/blob/3b6b7df0a2836f23795c5bc6d5af6c561d361331/MIMDocs/toc.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/11fe7e6ee88aa32b90aebf7526ee751d15ada2eb/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.fr-fr.xlf)
-* Handoff Datetime: 2016-07-14 16:52:55
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/81076aef0a5df377d21f52019b050b3f3c3e9856/MIMDocs/toc.md)
-* Current Handback File: [toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/8c89246b22c21384976de6f2801ebad64a0894e9/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.fr-fr.xlf)
-* Current Handback Datetime: 2016-07-14 05:18:11
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
