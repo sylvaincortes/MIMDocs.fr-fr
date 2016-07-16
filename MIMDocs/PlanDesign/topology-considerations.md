@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Considérations sur la topologie de déploiement MIM | Microsoft Identity Manager
-description: Comprendre les composants MIM 2016 et obtenir des suggestions de déploiement dans votre environnement.
-keywords:
+title: "Considérations sur la topologie de déploiement MIM | Microsoft Identity Manager"
+description: "Comprendre les composants MIM 2016 et obtenir des suggestions de déploiement dans votre environnement."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 735dc357-dfba-4f68-a5b3-d66d6c018803
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c023d147d0fcc1525fefbe866c952e217f7bee6b
+ms.openlocfilehash: e33a08d77a0b5c422cdbc8c19516b55df980a2c6
+
 
 ---
 
@@ -71,6 +65,7 @@ Les ordinateurs SQL Server qui hébergent le service de synchronisation MIM et l
 - La version téléchargeable du [Guide de planification des capacités de Forefront Identity Manager (FIM) 2010](http://go.microsoft.com/fwlink/?LinkId=200180) explique plus en détail les tests et les résultats des tests de performances.
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

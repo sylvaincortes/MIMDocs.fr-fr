@@ -6,38 +6,35 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a/MIMDocs/DeployUse/install-mim-sync-ad-service.md) | OutofSyncHandedBackSuccess | [Details](#f4e94980c6a03b08221fd46e19c421cce226086d11)
- [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/d333b77ae65be2ce2082a18c7e352a99195c2773/MIMDocs/index.md) | OutofSyncHandedBackSuccess | [Details](#285205578983eca4189da7ac0fdf0a9ee52b3bc681)
+ [MIMDocs\PlanDesign\supported-management-agents.md](https://github.com/Microsoft/MIMDocs-pr/blob/bddc8ba2deec0dfb434e26082891a5199e0a15eb/MIMDocs/PlanDesign/supported-management-agents.md) | ArchivedSuccess | [Details](#e1f18ad9bfc7946a751af0b73bba4faf0689c265248)
+ [MIMDocs\PlanDesign\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/5fa6f8f60d3ca99bc16333406663bd82ac4ec2e6/MIMDocs/PlanDesign/TOC.md) | OutofSyncHandedBackSuccess | [Details](#4cb419fa58037307e1352dd813e5f9b1767cfac5249)
 
 ## Item Details
-##### <a name='f4e94980c6a03b08221fd46e19c421cce226086d11'></a> Source: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Status: OutofSyncHandedBackSuccess
+##### <a name='e1f18ad9bfc7946a751af0b73bba4faf0689c265248'></a> Source: [MIMDocs\PlanDesign\supported-management-agents.md](https://github.com/Microsoft/MIMDocs-pr/blob/bddc8ba2deec0dfb434e26082891a5199e0a15eb/MIMDocs/PlanDesign/supported-management-agents.md)
+* Status: ArchivedSuccess
 * Target File: 
-* Handoff File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/67187f0fc1cd675a83b39b6e893ee299031c498e/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf)
-* Handoff Datetime: 2016-06-03 18:43:09
+* Handoff File: [supported-management-agents.11fc61920c5e2299976de7e0176ead23128cfc9b.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/391ab5d69b83192ae54a2e7bdc4a9b5cacb41b0c/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/supported-management-agents.11fc61920c5e2299976de7e0176ead23128cfc9b.fr-fr.xlf)
+* Handoff Datetime: 2016-07-06 22:18:53
 * Handoff Reason: Include
-* Archive File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/e6b4ade97d73cbcba19bf05cd866287cf58ddf62/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf)
-* Archive Datetime: 2016-06-09 00:18:32
+* Archive File: [supported-management-agents.11fc61920c5e2299976de7e0176ead23128cfc9b.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f3b384c7099d28c7185f1cc324653d23b95437d/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/supported-management-agents.11fc61920c5e2299976de7e0176ead23128cfc9b.fr-fr.xlf)
+* Archive Datetime: 2016-07-08 23:14:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/3fb3487753817c9e8b55bc6265e2922af3c69b45/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Current Handback File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/04a1157aaf007e6be7175a23d23e831721ffee8a/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.fr-fr.xlf)
-* Current Handback Datetime: 2016-05-26 16:24:46
 * [Back to Top](#report-top)
 
-##### <a name='285205578983eca4189da7ac0fdf0a9ee52b3bc681'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/d333b77ae65be2ce2082a18c7e352a99195c2773/MIMDocs/index.md)
+##### <a name='4cb419fa58037307e1352dd813e5f9b1767cfac5249'></a> Source: [MIMDocs\PlanDesign\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/5fa6f8f60d3ca99bc16333406663bd82ac4ec2e6/MIMDocs/PlanDesign/TOC.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/49e4e5b6dc174bbc4e53db82a2b732a1fa01bea5/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf)
-* Handoff Datetime: 2016-06-03 21:43:13
+* Handoff File: [TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/391ab5d69b83192ae54a2e7bdc4a9b5cacb41b0c/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf)
+* Handoff Datetime: 2016-07-06 22:18:53
 * Handoff Reason: Include
-* Archive File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/e6b4ade97d73cbcba19bf05cd866287cf58ddf62/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf)
-* Archive Datetime: 2016-06-09 00:18:32
+* Archive File: [TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf](https://github.com/Microsoft/EM.handoff/blob/4f3b384c7099d28c7185f1cc324653d23b95437d/ol-handoff/Microsoft/MIMDocs-pr.fr-fr/master/archive/TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf)
+* Archive Datetime: 2016-07-08 23:14:23
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/4f4157c542eec90bf9f26f891d5058def9faa36d/MIMDocs/index.md)
-* Current Handback File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/aa5f98c451f8e383a046a0196d8bca3242f20877/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.fr-fr.xlf)
-* Current Handback Datetime: 2016-05-27 12:08:03
+* Current Target File: [MIMDocs\PlanDesign\TOC.md](https://github.com/Microsoft/MIMDocs-pr.fr-fr/blob/b1584d53420c1290b22262cf4ec454298edfa508/MIMDocs/PlanDesign/TOC.md)
+* Current Handback File: [TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf](https://github.com/Microsoft/EM.handback/blob/40f84084bb71e8a8abc5684d3c726451fa0f2f74/ol-handback/Microsoft/MIMDocs-pr.fr-fr/master/TOC.4ef4520be73ef9e7aa69c2f08e700c80a68a239d.fr-fr.xlf)
+* Current Handback Datetime: 2016-05-20 15:00:45
 * [Back to Top](#report-top)
 
 

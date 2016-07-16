@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Configurer un serveur de gestion des identités&#58; Windows Server 2012 R2 | Microsoft Identity Manager
-description: Découvrez les étapes et la configuration minimale requise pour préparer Windows Server 2012 RS à travailler avec MIM 2016.
-keywords:
+title: "Configurer un serveur de gestion des identités&#58; Windows Server 2012 R2 | Microsoft Identity Manager"
+description: "Découvrez les étapes et la configuration minimale requise pour préparer Windows Server 2012 RS à travailler avec MIM 2016."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 51507d0a-2aeb-4cfd-a642-7c71e666d6cd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: af9f7f75f19bb29f2e29577c787252f6b7fabb7d
+ms.openlocfilehash: cd4ac84af4e5416512cf546a5d23b342ebe13c39
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 
 >[!div class="step-by-step"]
 [« Préparation d’un domaine](preparing-domain.md)
-[SQL Server 2014 »](prepare-server-sql2014.md)
+[SQL Server 2014 »](prepare-server-sql2014.md)
 
 > [!NOTE]
 > Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
@@ -61,7 +55,7 @@ Commencez avec un ordinateur Windows Server 2012 R2, avec un minimum de 8 Go d
 
     ![Image des fonctionnalités de PowerShell](media/MIM-DeployWS2.png)
 
-7. Dans PowerShell, tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités **.NET Framework** 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS) au sein du dossier de sources du disque d’installation du système d’exploitation, par exemple « *d:\Sources\SxS\* ».
+7. Dans PowerShell, tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités **.NET Framework** 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS) dans le dossier de sources du disque d’installation du système d’exploitation, par exemple « *d:\Sources\SxS\* ».
 
     ```
     import-module ServerManager
@@ -113,9 +107,10 @@ Configurez la stratégie de sécurité de serveur pour autoriser les comptes ré
 
 >[!div class="step-by-step"]  
 [« Préparation d’un domaine](preparing-domain.md)
-[SQL Server 2014 »](prepare-server-sql2014.md)
+[SQL Server 2014 »](prepare-server-sql2014.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

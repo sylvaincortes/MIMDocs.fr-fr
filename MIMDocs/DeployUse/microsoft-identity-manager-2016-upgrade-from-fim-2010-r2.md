@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Mise à niveau depuis Forefront Identity Manager 2010 R2 | Microsoft Identity Manager
-description: Découvrez comment mettre à niveau vos composants FIM 2010 R2 et installer les composants qui sont nouveaux dans MIM 2016.
-keywords:
+title: "Mise à niveau depuis Forefront Identity Manager 2010 R2 | Microsoft Identity Manager"
+description: "Découvrez comment mettre à niveau vos composants FIM 2010 R2 et installer les composants qui sont nouveaux dans MIM 2016."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 05/13/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 9471ccc1-bafe-46ee-b169-1464262380e1
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 7e61e201b277a2e8ec9fee785e9e34fca3b1cb29
+ms.openlocfilehash: 24a7bf5bfb0a7450becd08be6743ed7ab1755559
+
 
 ---
 
@@ -207,6 +201,7 @@ Ce guide part du principe que vous avez déjà configuré ce qui suit :
 Remarque : si les compléments et les extensions FIM actuellement déployés sur les ordinateurs de l’utilisateur pour la réinitialisation de mot de passe libre-service, ne configurez pas les nouvelles portes de téléphone MFA pour la réinitialisation du mot de passe jusqu’à ce que tous les compléments et extensions FIM aient été mis à niveau vers MIM 2016.  Comme les compléments et extensions de FIM 2010 et FIM 2010 R2 ne reconnaissent pas les nouvelles portes, une erreur s’affiche et l’utilisateur ne peut pas effectuer la réinitialisation du mot de passe.
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

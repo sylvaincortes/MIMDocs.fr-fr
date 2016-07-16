@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Utilisation du Gestionnaire de certificats MIM | Microsoft Identity Manager
-description: Apprenez à déployer l’application Gestionnaire de certificats pour permettre aux utilisateurs de gérer leurs propres droits d’accès. 
-keywords:
+title: "Utilisation du Gestionnaire de certificats MIM | Microsoft Identity Manager"
+description: "Apprenez à déployer l’application Gestionnaire de certificats pour permettre aux utilisateurs de gérer leurs propres droits d’accès."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 66060045-d0be-4874-914b-5926fd924ede
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 3e0e6cea0b268836bb6347e81694deec93320ce3
+
 
 ---
 
@@ -43,7 +37,7 @@ Vous créez un modèle de certificat pour l'application Gestionnaire de certific
 
 2.  Ouvrez la console MMC.
 
-3.  Cliquez sur **Fichier > Ajouter/Supprimer un composant logiciel enfichable**.
+3.  Cliquez sur **Fichier &gt; Ajouter/Supprimer un composant logiciel enfichable**.
 
 4.  Dans la liste des composants logiciels enfichables disponibles, cliquez sur **Modèles de certificats**, puis sur **Ajouter**.
 
@@ -71,7 +65,7 @@ Vous créez un modèle de certificat pour l'application Gestionnaire de certific
 
 14. Dans le volet gauche de la console MMC, développez **Autorité de certification (local)** , puis développez votre autorité de certification dans la liste des autorités de certification.
 
-15. Cliquez avec le bouton droit sur **Modèles de certificats**, cliquez sur **Nouveau > Modèle de certificat à délivrer**.
+15. Cliquez avec le bouton droit sur **Modèles de certificats**, cliquez sur **Nouveau &gt; Modèle de certificat à délivrer**.
 
 16. Dans la liste, sélectionnez le modèle que vous avez créé, puis cliquez sur **OK**.
 
@@ -80,7 +74,7 @@ Quand vous créez un modèle de profil, veillez à le définir pour créer/détr
 
 1.  Connectez-vous au portail CM en tant qu'utilisateur disposant de privilèges d'administrateur.
 
-2.  Accédez à Administration &gt; Gérer les modèles de profils, assurez-vous que la case est cochée en regard de l’exemple de modèle de profil de connexion par carte à puce MIM CM, puis cliquez sur Copier un modèle de profil sélectionné.
+2.  Accédez à Administration &gt; Gérer les modèles de profils, vérifiez que la case est cochée en regard de l’exemple de modèle de profil de connexion par carte à puce MIM CM, puis cliquez sur Copier un modèle de profil sélectionné.
 
 3.  Tapez le nom du modèle de profil, puis cliquez sur **OK**.
 
@@ -96,7 +90,7 @@ Quand vous créez un modèle de profil, veillez à le définir pour créer/détr
 
 9. Sous **Stratégie de code confidentiel utilisateur** , sélectionnez **Fourni par l'utilisateur**.
 
-10. Dans le volet gauche, cliquez sur **Stratégie de renouvellement &gt; Modifier les paramètres généraux**. Sélectionnez **Réutiliser la carte lors du renouvellement** , puis cliquez sur **OK**.
+10. Dans le volet gauche, cliquez sur **Stratégie de renouvellement &gt; Modifier les paramètres généraux**. Sélectionnez **Réutiliser la carte lors du renouvellement** , puis cliquez sur **OK**.
 
 11. Vous devez désactiver les éléments de collection de données pour chaque stratégie. Pour ce faire, cliquez sur la stratégie dans le volet gauche, cochez la case en regard d' **Élément de données exemple** , puis cliquez sur **Supprimer les éléments de la collection de données**. Cliquez sur **OK**.
 
@@ -132,7 +126,7 @@ Quand vous créez un modèle de profil, veillez à le définir pour créer/détr
 
 7.  Vous devez obtenir un certificat de signature avant de débuter cette section. Consultez ci-dessous, Activation du renouvellement de carte à puce pour les non-administrateurs dans le Gestionnaire de certificats MIM 2016, étape 1.
 
-8.  Dans l’élément <Identity>, changez la valeur de l’attribut Publisher pour qu’elle soit identique à la valeur du sujet indiqué dans votre certificat de signature, par exemple « CN=SUBJECT ».
+8.  Dans l’élément &lt;Identity&gt;, changez la valeur de l’attribut Publisher pour qu’elle soit identique à la valeur du sujet indiqué dans votre certificat de signature, par exemple "CN=SUBJECT".
 
 9. Enregistrez le fichier et quittez l'éditeur.
 
@@ -154,7 +148,7 @@ Quand vous créez un modèle de profil, veillez à le définir pour créer/détr
 
     -   Ouvrez l'application Carte à puce virtuelle. Cela vous permet de trouver plus facilement les valeurs nécessaires pour la prochaine étape.
 
-    -   Pour ajouter l'application en tant que client au serveur AD FS et configurer CM sur le serveur, ouvrez Windows PowerShell sur le serveur AD FS et exécutez la commande `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>`
+    -   Pour ajouter l’application en tant que client au serveur AD FS et configurer CM sur le serveur, ouvrez Windows PowerShell sur le serveur AD FS et exécutez la commande `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>`
 
         Voici le script ConfigureMimCMClientAndRelyingParty.ps1 :
 
@@ -255,12 +249,13 @@ Quand vous créez un modèle de profil, veillez à le définir pour créer/détr
 
     -   Le nom de domaine complet (FQDN) du serveur correspond uniquement au nom complet de l'ordinateur du serveur MIMCM.
 
-    -   Pour obtenir de l'aide sur le script **ConfigureMIimCMClientAndRelyingParty.ps1** , exécutez `get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1`
+    -   Pour obtenir de l’aide sur le script **ConfigureMIimCMClientAndRelyingParty.ps1**, exécutez `get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1`
 
 ## Déployer l'application
-Quand vous configurez l’application CM, dans le Centre de téléchargement, téléchargez le fichier MIMDMModernApp_<version>_AnyCPU_Test, puis extrayez l’ensemble de son contenu. Le fichier .appx représente le programme d'installation. Vous pouvez le déployer de la même façon qu’une application du Windows Store, à l’aide de [System Center Configuration Manager](https://technet.microsoft.com/library/dn613840.aspx)ou d’[Intune](https://technet.microsoft.com/library/dn613839.aspx) pour charger une version test de l’application, et permettre aux utilisateurs d’y accéder via le portail d’entreprise ou de l’obtenir directement par transmission de type push sur leurs ordinateurs.
+Quand vous configurez l’application CM, dans le Centre de téléchargement, téléchargez le fichier MIMDMModernApp_&lt;version&gt;_AnyCPU_Test.zip, puis extrayez l’ensemble de son contenu. Le fichier .appx représente le programme d'installation. Vous pouvez le déployer de la même façon qu’une application du Windows Store, à l’aide de [System Center Configuration Manager](https://technet.microsoft.com/library/dn613840.aspx)ou d’[Intune](https://technet.microsoft.com/library/dn613839.aspx) pour charger une version test de l’application, et permettre aux utilisateurs d’y accéder via le portail d’entreprise ou de l’obtenir directement par transmission de type push sur leurs ordinateurs.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

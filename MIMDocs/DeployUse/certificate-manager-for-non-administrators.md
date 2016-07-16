@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Inscrire des cartes à puce pour les non-administrateurs | Microsoft Identity Manager
-description: Découvrez comment les utilisateurs sans accès administrateur à leur ordinateur peuvent inscrire des cartes à puce afin de pouvoir utiliser le Gestionnaire de certificats.
-keywords:
+title: "Inscrire des cartes à puce pour les non-administrateurs | Microsoft Identity Manager"
+description: "Découvrez comment les utilisateurs sans accès administrateur à leur ordinateur peuvent inscrire des cartes à puce afin de pouvoir utiliser le Gestionnaire de certificats."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: bfabc562-a2f0-4cff-ac31-36927f41e102
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 875ed6b96929822ac166a4a262cc8547a4ea3b2a
+ms.openlocfilehash: 50c0edd60abfa6550cb5a873d32a842e8c099811
+
 
 ---
 
@@ -101,6 +95,7 @@ Si un utilisateur n’est pas un administrateur local sur son ordinateur, par d�
 8.  **Lancer l’application CM et s’inscrire pour une carte à puce virtuelle**
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

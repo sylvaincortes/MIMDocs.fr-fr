@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Déployer MIM 2016 | Gestionnaire d’identité Microsoft
-description: Liste complète des étapes de déploiement de Microsoft Identity Manager 2016, de la préparation de l’environnement à la configuration des portails.
-keywords:
+title: "Déployer MIM 2016 | Gestionnaire d’identité Microsoft"
+description: "Liste complète des étapes de déploiement de Microsoft Identity Manager 2016, de la préparation de l’environnement à la configuration des portails."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: fa0af422-b5e9-4599-9d9b-cb6c18ea07f9
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ca7fdef81eb8a68aff46df528e1989f019f5d2a4
+ms.openlocfilehash: a56ead9777f1dad1aa0d214a506cf1242f51e167
+
 
 ---
 
@@ -55,6 +49,7 @@ Une fois que vous avez défini le domaine et le serveur, vous êtes prêt à ins
 - [Synchroniser les bases de données Active Directory et de service MIM](install-mim-sync-ad-service.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
