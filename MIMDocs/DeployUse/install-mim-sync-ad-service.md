@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Installer MIM 2016 & #58 ; Synchroniser Active Directory et le service MIM | Microsoft Identity Manager
-description: Utiliser des agents de gestion et le service de synchronisation MIM pour synchroniser vos bases de données Active Directory et MIM.
-keywords:
+title: "Installer MIM 2016 &"
+description: "Utiliser des agents de gestion et le service de synchronisation MIM pour synchroniser vos bases de données Active Directory et MIM."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,22 +10,19 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 5e532b67-64a6-4af6-a806-980a6c11a82d
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a
+ms.openlocfilehash: f4e94980c6a03b08221fd46e19c421cce226086d
+
 
 ---
 
 # Installer MIM 2016 : synchroniser Active Directory et le service MIM
 
->[!div class="step-by-step"] [« Service et portail MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"]
+[« Service et portail MIM](install-mim-service-portal.md)
 
 > [!NOTE]
 > Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
@@ -42,7 +37,8 @@ L’agent de gestion MIM (MA) est le connecteur qui lie la synchronisation MIM a
 
 Quand vous configurez un agent de gestion MIM, vous devez spécifier un compte d'utilisateur. Dans ce document, **MIMMA** est utilisé comme nom de ce compte.
 
-> [!NOTE] Le compte que vous utilisez pour votre agent de gestion MIM doit être le même que celui que vous avez spécifié pendant l’installation du service MIM.
+> [!NOTE]
+> Le compte que vous utilisez pour votre agent de gestion MIM doit être le même que celui que vous avez spécifié pendant l'installation du service MIM.
 
 ###Pour créer l'agent de gestion MIM
 
@@ -437,9 +433,11 @@ Suivez ces étapes pour exécuter chacun des trois profils d’exécution.
     - Dans la liste **Profils d’exécution**, sélectionnez le profil d’exécution à configurer.
     - Cliquez sur **OK** pour démarrer le profil d’exécution.
 
->[!div class="step-by-step"] [« Service et portail MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"]
+[« Service et portail MIM](install-mim-service-portal.md)
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

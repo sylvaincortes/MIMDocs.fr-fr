@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Configurer un serveur de gestion des identités&#58; SharePoint | Microsoft Identity Manager
-description: Installer et configurer SharePoint Foundation pour héberger la page du portail MIM.
-keywords:
+title: "Configurer un serveur de gestion des identités&#58; SharePoint | Microsoft Identity Manager"
+description: "Installer et configurer SharePoint Foundation pour héberger la page du portail MIM."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: c01487f2-3de6-4fc4-8c3a-7d62f7c2496c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
+ms.openlocfilehash: b144f28b41eb8e02afa44495c0019ccc81022005
+
 
 ---
 
@@ -32,7 +26,7 @@ ms.suite: ems
 [Exchange Server »](prepare-server-exchange.md)
 
 > [!NOTE]
-> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
 > - Nom du contrôleur de domaine : **mimservername**
 > - Nom de domaine : **contoso**
 > - Mot de passe : **Pass@word1**
@@ -98,7 +92,8 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
     -ApplicationPoolAccount $dbManagedAccount -AuthenticationMethod "Kerberos" -Port 82 -URL http://corpidm.contoso.local
     ```
 
-    > [!NOTE] Un message d’avertissement signale que la méthode d’authentification Windows classique est utilisée et que l’exécution de la commande finale peut prendre plusieurs minutes. Une fois terminé, la sortie indique l'URL du nouveau portail. Laissez la fenêtre **SharePoint 2013 Management Shell** ouverte pour pouvoir y faire référence ultérieurement.
+    > [!NOTE] 
+    > Un message d’avertissement signale que la méthode d’authentification Windows classique est utilisée et que l’exécution de la commande finale peut prendre plusieurs minutes. Une fois terminé, la sortie indique l'URL du nouveau portail. Laissez la fenêtre **SharePoint 2013 Management Shell** ouverte pour pouvoir y faire référence ultérieurement.
 
 2. Lancez SharePoint 2013 Management Shell et exécutez le script PowerShell suivant pour créer une **Collection de sites SharePoint** associée à cette application web.
 
@@ -112,7 +107,8 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
   $s.CompatibilityLevel
   ```
 
-  > [!NOTE] Vérifiez que le résultat de la variable *CompatibilityLevel* est « 14 ». Si le résultat est « 15 », la collection de sites n'a pas été créée pour la version d'expérience 2010. Supprimez la collection de sites et recréez-la.
+  > [!NOTE] 
+  > Vérifiez que le résultat de la variable *CompatibilityLevel* est « 14 ». Si le résultat est « 15 », la collection de sites n'a pas été créée pour la version d'expérience 2010. Supprimez la collection de sites et recréez-la.
 
 3. Désactivez **viewstate côté serveur SharePoint** et la tâche SharePoint « Tâche d’analyse de l’intégrité (Toutes les heures, Minuteur de Microsoft SharePoint Foundation, Tous les serveurs) » en exécutant les commandes PowerShell suivantes dans **SharePoint 2013 Management Shell** :
 
@@ -140,6 +136,7 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
 [Exchange Server »](prepare-server-exchange.md)
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 
