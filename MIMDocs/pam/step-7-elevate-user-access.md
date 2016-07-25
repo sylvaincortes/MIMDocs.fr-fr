@@ -1,10 +1,10 @@
 ---
-title: "Étape 7 – Élever l’accès d’un utilisateur | Microsoft Identity Manager"
-description: 
+title: "Étape 7 du déploiement PAM : Accès utilisateur | Microsoft Identity Manager"
+description: "La dernière étape consiste à accorder un accès temporaire à un utilisateur disposant de privilèges pour illustrer la réussite de votre déploiement Privileged Access Management."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: microsoft-identity-manager
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 5325fce2-ae35-45b0-9c1a-ad8b592fcd07
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: ee47c69788a98075372ca62943e0c4b101c5354f
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: b4b3f4c0605fabc7166e8ff8309078f80461301e
 
 
 ---
@@ -46,7 +46,7 @@ Sans privilèges élevés, Jen ne peut pas accéder à la ressource privilégié
 2. À l’invite, tapez le mot de passe du compte PRIV.Jen. Une nouvelle fenêtre d'invite de commandes s'affiche.
 3. Quand la fenêtre PowerShell apparaît, tapez les commandes suivantes.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Une fois ces commandes exécutées, toutes les étapes suivantes ont une durée limitée.
 
     ```
@@ -92,7 +92,7 @@ Procédez à l’activation en demandant un accès privilégié via l’exemple 
 7. Fermez les boîtes de dialogue **Options Internet** .
 8. Sous l’onglet gauche, cliquez sur **Activer**. Sélectionnez le **rôle PAM**, puis cliquez sur **Activer**.
 
-> [!Note] 
+> [!Note]
 > Dans cet environnement, vous pouvez aussi apprendre à développer des applications qui utilisent l’API REST PAM, décrite dans [Référence de l’API REST PAM](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference.md).
 
 ## Résumé
@@ -103,6 +103,6 @@ Une fois que vous aurez effectué les étapes décrites dans cette procédure pa
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

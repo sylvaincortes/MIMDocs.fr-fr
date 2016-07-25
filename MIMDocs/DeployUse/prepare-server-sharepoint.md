@@ -1,10 +1,10 @@
 ---
-title: "Configurer un serveur de gestion des identités&#58; SharePoint | Microsoft Identity Manager"
+title: Configurer SharePoint | Microsoft Identity Manager
 description: "Installer et configurer SharePoint Foundation pour héberger la page du portail MIM."
 keywords: 
 author: kgremban
-manager: stevenpo
-ms.date: 04/28/2016
+manager: femila
+ms.date: 07/21/2016
 ms.topic: get-started-article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: c01487f2-3de6-4fc4-8c3a-7d62f7c2496c
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: b144f28b41eb8e02afa44495c0019ccc81022005
+ms.sourcegitcommit: b3ab1b9376c9b613739d87c812f4b16a4e17e6de
+ms.openlocfilehash: 9885579d9fb72dd4e73ec5a8a359b35c49d10440
 
 
 ---
@@ -92,7 +92,7 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
     -ApplicationPoolAccount $dbManagedAccount -AuthenticationMethod "Kerberos" -Port 82 -URL http://corpidm.contoso.local
     ```
 
-    > [!NOTE] 
+    > [!NOTE]
     > Un message d’avertissement signale que la méthode d’authentification Windows classique est utilisée et que l’exécution de la commande finale peut prendre plusieurs minutes. Une fois terminé, la sortie indique l'URL du nouveau portail. Laissez la fenêtre **SharePoint 2013 Management Shell** ouverte pour pouvoir y faire référence ultérieurement.
 
 2. Lancez SharePoint 2013 Management Shell et exécutez le script PowerShell suivant pour créer une **Collection de sites SharePoint** associée à cette application web.
@@ -107,7 +107,7 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
   $s.CompatibilityLevel
   ```
 
-  > [!NOTE] 
+  > [!NOTE]
   > Vérifiez que le résultat de la variable *CompatibilityLevel* est « 14 ». Si le résultat est « 15 », la collection de sites n'a pas été créée pour la version d'expérience 2010. Supprimez la collection de sites et recréez-la.
 
 3. Désactivez **viewstate côté serveur SharePoint** et la tâche SharePoint « Tâche d’analyse de l’intégrité (Toutes les heures, Minuteur de Microsoft SharePoint Foundation, Tous les serveurs) » en exécutant les commandes PowerShell suivantes dans **SharePoint 2013 Management Shell** :
@@ -137,6 +137,6 @@ Suivez les étapes de l’**Assistant Configuration des produits SharePoint** po
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

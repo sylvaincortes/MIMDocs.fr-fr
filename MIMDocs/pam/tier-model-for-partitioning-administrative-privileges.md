@@ -1,10 +1,10 @@
 ---
-title: "Modèle de niveaux pour le partitionnement des privilèges d’administration | Microsoft Identity Manager"
-description: 
+title: "Modèle de niveaux de l’environnement PAM | Microsoft Identity Manager"
+description: "Découvrez le modèle de niveaux qui isole votre système en fonction de la vulnérabilité aux risques."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/14/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: c6e3cd02-1e32-4194-a8ed-3a0b3d022a43
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 509c05bbda5f0a0b936518fb023000771c45d4f7
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 1a750bedee2aac667c84113d2d08daa20428c260
 
 
 ---
@@ -44,7 +44,7 @@ Des restrictions d’ouverture de session doivent être appliquées pour garanti
 - les administrateurs de domaines (niveau 0) ne peuvent pas ouvrir des sessions sur des serveurs d’entreprise (niveau 1) et sur des stations de travail d’utilisateurs standard (niveau 2) ;
 - les administrateurs de serveurs (niveau 1) ne peuvent pas ouvrir des sessions sur des stations de travail d’utilisateurs standard (niveau 2).
 
->[!NOTE] 
+>[!NOTE]
 > Les administrateurs de serveurs ne doivent pas être dans le groupe d’administrateurs du domaine. Le personnel ayant des responsabilités à la fois pour la gestion des contrôleurs de domaine et pour les serveurs d’entreprise doivent disposer de comptes distincts.
 
 Les restrictions d’ouverture de session peuvent être appliquées avec :
@@ -62,6 +62,6 @@ L’article suivant, [Planification d’un environnement bastion](planning-basti
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Considérations relatives à la haute disponibilité et à la récupération d’urgence pour l’environnement bastion | Microsoft Identity Manager"
-description: 
+title: "Récupération d’urgence PAM | Microsoft Identity Manager"
+description: "Découvrez comment configurer Privileged Access Management pour une haute disponibilité et la récupération d’urgence."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/17/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: microsoft-identity-manager
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 03e521cd-cbf0-49f8-9797-dbc284c63018
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 1d9e005bfb3e26f9a2b818667f14acd3e5239523
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 9164e48bf10fa27ff6c87ba3816b586a940dda69
 
 
 ---
@@ -161,7 +161,7 @@ Un déploiement de production de gestion des accès privilégiés classique comp
 
 Vous trouverez la procédure d’ajout d’un contrôleur de domaine supplémentaire dans [Installer un contrôleur de domaine Windows Server 2012 répliqué dans un domaine existant (niveau 200)](https://technet.microsoft.com/library/jj574134.aspx).  
 
->[!NOTE] 
+>[!NOTE]
 > Si le contrôleur de domaine doit être hébergé sur une plateforme de virtualisation comme Hyper-V, passez en revue les avertissements dans [Déploiement et configuration des contrôleurs de domaine virtualisés](https://technet.microsoft.com/library/jj574223.aspx).
 
 #### Récupération
@@ -199,7 +199,7 @@ Pour la haute disponibilité, consultez la documentation de Windows Server relat
 
 Pour le déploiement de production sur plusieurs serveurs, vous pouvez utiliser l’équilibrage de la charge réseau (NLB) pour distribuer la charge de traitement.  Vous devez également avoir un alias unique (par exemple, enregistrement A ou CNAME) pour qu’un nom commun soit exposé à l’utilisateur.
 
->[!IMPORTANT] 
+>[!IMPORTANT]
 > Si vous utilisez une technologie d’équilibrage de la charge autre que la fonctionnalité d’équilibrage de la charge réseau dans Windows Server 2012 R2, vérifiez que votre solution redirige une session vers le même serveur et non vers un serveur aléatoire.
 
 Dans un déploiement MIM à plusieurs serveurs, chaque Service MIM a un nom d’hôte externe, un nom de service et un nom de partition de service.  La valeur par défaut du nom de service est le nom de l’ordinateur, et la valeur par défaut du nom d’hôte externe et du nom de partition de service est configurée pendant l’installation du Service MIM dans la page qui vous invite à spécifier l’adresse du serveur du Service MIM. Ces trois noms sont stockés dans le fichier %ProgramFiles%\Microsoft Forefront Identity Manager\Service\Microsoft.ResourceManagementService.exe.config en tant qu’attributs `externalHostName`, `serviceName` et `servicePartitionName` du nœud de configuration `resourceManagementService`.  
@@ -224,6 +224,6 @@ Si le niveau fonctionnel de la forêt de l’environnement bastion est Windows S
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

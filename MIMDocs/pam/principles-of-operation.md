@@ -1,10 +1,10 @@
 ---
-title: "Présentation des composants de PAM | Microsoft Identity Manager"
-description: 
+title: "Présentation des composants PAM | Microsoft Identity Manager"
+description: "Privileged Access Management partage certains composants avec MIM, mais possède aussi ses propres composants. Découvrez comment ils fonctionnent ensemble."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/13/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -12,8 +12,9 @@ ms.technology: active-directory-domain-services
 ms.assetid: 6498f68f-36d3-448c-8fe6-649ad5a7f97d
 ms.reviewer: mwahl
 ms.suite: ems
-ms.sourcegitcommit: a6bdf1b947ee3ebc4c9e89e74b2912697ebf1f60
-ms.openlocfilehash: 49f47050703095d402a1514342baf4e928f66c70
+translationtype: Human Translation
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: d17feb5d78b864bef8f0b96bfbf92a18c3c91694
 
 
 ---
@@ -42,6 +43,6 @@ En outre, ces appartenances ont une durée limitée. Ainsi, après un délai pr�
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: "Étape 4 - Installer les composants MIM sur le serveur PAM et la station de travail | Microsoft Identity Manager"
-description: 
+title: "Étape 4 du déploiement PAM : Installer MIM | Microsoft Identity Manager"
+description: Installez et configurez le portail et le service MIM sur vos stations de travail et serveur Privileged Access Management.
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 4e0298099dad9b11812d533e23101fb995fe33d5
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 92939d32da25896d07bec61e4633f58230a78181
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 4e0298099dad9b11812d533e23101fb995fe33d5
 
 Sur PAMSRV, connectez-vous en tant que PRIV\Administrateur pour pouvoir installer le Service et portail MIM et l’exemple d’application web de portail.
 
-  > [!NOTE] 
+  > [!NOTE]
   > Vous devez être administrateur de domaine. Si vous n’exécutez pas les commandes suivantes en tant qu’administrateur de domaine, les contrôles de validation d’approbation de l’étape suivante ne sont pas effectués.
 
 Si vous avez téléchargé MIM, décompressez l'archive d'installation MIM dans un nouveau dossier.
@@ -44,7 +44,7 @@ Suivez les instructions du programme d'installation, puis terminez l'installatio
 
 2.  Quand vous configurez des services usuels et la connexion de base de données MIM, spécifiez **Créer une base de données**.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Si vous installez le Service MIM plusieurs fois pour la haute disponibilité, spécifiez **Utiliser une base de données existante** pour toutes les installations suivantes.
 
 3.  Quand vous configurez une connexion de serveur de messagerie, définissez comme serveur de messagerie le nom d’hôte d’un serveur Exchange ou SMTP pour l’environnement CORP (utilisez corpdc.contoso.local si vous n’avez pas de serveur de messagerie) et décochez les cases **Utiliser SSL** et **Le serveur de messagerie est Exchange Server 2007 ou Exchange Server 2010**.
@@ -193,6 +193,6 @@ Lors de l’étape suivante, vous allez établir l’approbation entre les forê
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

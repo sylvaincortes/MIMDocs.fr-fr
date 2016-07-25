@@ -1,10 +1,10 @@
 ---
-title: "Configuration matérielle et logicielle requise | Microsoft Identity Manager"
-description: 
+title: Configuration logicielle requise pour PAM | Microsoft Identity Manager
+description: "Recherchez la configuration matérielle et logicielle requise pour un déploiement réussi de Privileged Access Management."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/17/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -12,13 +12,18 @@ ms.technology: active-directory-domain-services
 ms.assetid: 82a9085c-9667-4b3b-8079-657eab1d1e58
 ms.reviewer: mwahl
 ms.suite: ems
-ms.sourcegitcommit: a6bdf1b947ee3ebc4c9e89e74b2912697ebf1f60
-ms.openlocfilehash: 77e7174e94ea8032c4e57155db489f493ce18177
+translationtype: Human Translation
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 75a748f7035cfb10e833e4fdbfdc208b5245d3ea
 
 
 ---
 
-Aucune configuration matérielle requise au-delà de celle des plateformes logicielles sous-jacentes. Un espace mémoire ou disque suffisant et une connectivité réseau sont nécessaires. Cet article fournit la configuration minimale requise pour un déploiement de base. Il n’a pas pour but d’illustrer les performances, l’extensibilité ou la haute disponibilité, et il ne représente pas une topologie de déploiement recommandée pour les grandes entreprises ou les grands environnements de production.
+# Configuration matérielle et logicielle requise
+
+Privileged Access Management n’a aucune configuration matérielle requise au-delà de celle des plateformes logicielles sous-jacentes. Vérifiez que vous disposez de suffisamment de mémoire ou d’espace disque ainsi que d’une connectivité réseau.
+
+Cet article fournit la configuration minimale requise pour un déploiement de base. Il n’a pas pour but d’illustrer les performances, l’extensibilité ou la haute disponibilité, et il ne représente pas une topologie de déploiement recommandée pour les grandes entreprises ou les grands environnements de production.
 
 ## Installation à partir des packages logiciels
 
@@ -70,6 +75,6 @@ Pour PAMSRV :
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

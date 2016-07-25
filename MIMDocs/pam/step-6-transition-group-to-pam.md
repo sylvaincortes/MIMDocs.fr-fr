@@ -1,10 +1,10 @@
 ---
-title: "Étape 6 – Effectuer la transition d’un groupe vers Privileged Access Management | Microsoft Identity Manager"
-description: 
+title: "Étape 6 du déploiement PAM : Déplacer un groupe | Microsoft Identity Manager"
+description: "Effectuez la migration d’un groupe vers la forêt PRIV afin qu’il puisse être géré avec Privilege Access Management."
 keywords: 
-author: 
+author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -12,8 +12,9 @@ ms.technology: active-directory-domain-services
 ms.assetid: 7b689eff-3a10-4f51-97b2-cb1b4827b63c
 ms.reviewer: mwahl
 ms.suite: ems
-ms.sourcegitcommit: 01470689e862b47625346d5d5bc6bc7def11da9c
-ms.openlocfilehash: b21e2fed4588572fd1b793c4942860871ae9a51c
+translationtype: Human Translation
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 603e5e28f0eee0f648ef7e00ef137f5a08b2ba34
 
 
 ---
@@ -21,8 +22,8 @@ ms.openlocfilehash: b21e2fed4588572fd1b793c4942860871ae9a51c
 # Étape 6 – Effectuer la transition d'un groupe vers Privileged Access Management
 
 >[!div class="step-by-step"]
-[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
-[Étape 7 »](step-7-elevate-user-access.md)
+[« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+[Étape 7 »](step-7-elevate-user-access.md)
 
 La création d’un compte privilégié dans la forêt PRIV s’effectue à l’aide d’applets de commande PowerShell. Ces applets de commande remplissent les fonctions suivantes :
 
@@ -84,11 +85,11 @@ Les applets de commande doivent être exécutées une fois pour chaque groupe et
 Si vous souhaitez démontrer que les droits d’accès entre forêts sont efficaces pour le compte d’administrateur de l’utilisateur, passez à l’étape suivante.
 
 >[!div class="step-by-step"]
-[!div class="step-by-step"] [« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
-[Étape 7 »](step-7-elevate-user-access.md)
+[« Étape 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+[Étape 7 »](step-7-elevate-user-access.md)
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

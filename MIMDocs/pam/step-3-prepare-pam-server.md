@@ -1,10 +1,10 @@
 ---
-title: "Étape 3 - Préparer un serveur PAM | Microsoft Identity Manager"
-description: 
+title: "Étape 3 du déploiement PAM : Serveur PAM | Microsoft Identity Manager"
+description: "Préparez un serveur PAM qui hébergera SQL et SharePoint pour le déploiement Privileged Access Management."
 keywords: 
-author: 
+author: kgremban
 manager: femila
-ms.date: 06/17/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: ec65078cea33b73aa9482e831a1870df477c6581
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 1a21399df9528f689b811400a660543853d88472
 
 
 ---
@@ -118,7 +118,7 @@ Si SQL Server n’est pas encore dans l’environnement bastion, installez SQL S
 
 À l’aide du programme d’installation de SharePoint Foundation 2013 avec SP1, installez les composants logiciels nécessaires de SharePoint sur PAMSRV.
 
-> [!NOTE] 
+> [!NOTE]
 > Ce programme d’installation nécessite une connexion Internet pour télécharger les composants requis. Une fois ces composants installés, le serveur redémarre.
 
 1. Cliquez avec le bouton droit sur PowerShell, puis sélectionnez **Exécuter en tant qu’administrateur**.  
@@ -158,7 +158,7 @@ Une fois l’Assistant terminé, utilisez PowerShell pour créer une Application
 
 2. Un message d’avertissement signale que la méthode d’authentification Windows classique est utilisée et que l’exécution de la commande finale peut prendre plusieurs minutes.  Une fois terminé, la sortie indique l’URL du nouveau portail.
 
-> [!NOTE] 
+> [!NOTE]
 > Laissez la fenêtre SharePoint 2013 Management Shell ouverte pour l’utiliser à l’étape suivante.
 
 ## Créer une collection de sites SharePoint
@@ -212,6 +212,6 @@ En cas d’échec de la connexion, les noms de principaux du service (SPN) Kerbe
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 
