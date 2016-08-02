@@ -4,7 +4,7 @@ description: "Découvrez Privileged Access Management et comment il peut vous ai
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 07/15/2016
+ms.date: 07/27/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -12,23 +12,24 @@ ms.technology: active-directory-domain-services
 ms.assetid: cf3796f7-bc68-4cf7-b887-c5b14e855297
 ms.reviewer: mwahl
 ms.suite: ems
+experimental: true
+experiment_id: kgremban_images
 translationtype: Human Translation
-ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
-ms.openlocfilehash: bbc5c6760bc035d57f9d76d102246abbfe298e8b
-
+ms.sourcegitcommit: e695dd47e4bd31c4004c7d0d9ec76498d52fb56a
+ms.openlocfilehash: b46c2b50873023d504fb7b440a1d4e40e8fa3ac7
 
 ---
 
 # Privileged Access Management pour les services de domaine Active Directory
-Privileged Access Management (PAM) est une solution basée sur Microsoft Identity Manager (MIM), Windows Server 2012 R2 et Windows Server Technical Preview. Elle permet aux organisations de restreindre l'accès privilégié au sein d'un environnement Active Directory existant.
-
-> [!NOTE]
-> PAM est une instance de [Privileged Identity Management](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-configure/) (PIM) implémentée à l’aide de Microsoft Identity Manager (MIM).
+Privileged Access Management (PAM) est une solution qui permet aux organisations de restreindre l’accès privilégié au sein d’un environnement Active Directory existant.
 
 Privileged Access Management remplit deux objectifs :
 
 - Rétablissement du contrôle d’un environnement Active Directory compromis en conservant un environnement bastion distinct connu pour être non affecté par des attaques malveillantes.  
 - Isolement de l’utilisation des comptes privilégiés pour réduire le risque de vol de ces informations d’identification.
+
+> [!NOTE]
+> PAM est une instance de [Privileged Identity Management](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-configure/) (PIM) implémentée à l’aide de Microsoft Identity Manager (MIM).
 
 ## Quels sont les problèmes que PAM aide à résoudre ?
 L’un des plus graves problèmes auxquels font face les entreprises aujourd’hui est l’accès aux ressources dans un environnement Active Directory. Les découvertes de vulnérabilités, d’escalades de privilèges non autorisées et d’autres types d’accès non autorisé (y compris les agressions de type « pass-the-hash », « pass-the-ticket », « spear phishing » et Kerberos) sont particulièrement perturbantes.
@@ -95,6 +96,6 @@ Ce flux de travail est conçu spécifiquement pour ces comptes d'administration.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 

@@ -13,8 +13,8 @@ ms.assetid: 5325fce2-ae35-45b0-9c1a-ad8b592fcd07
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
-ms.openlocfilehash: b4b3f4c0605fabc7166e8ff8309078f80461301e
+ms.sourcegitcommit: 9b5b7460e6307ab38b1b9356a638eb0200fd97d1
+ms.openlocfilehash: 009091a65dba31de2066e45930e438442fcd89a0
 
 
 ---
@@ -93,7 +93,7 @@ Procédez à l’activation en demandant un accès privilégié via l’exemple 
 8. Sous l’onglet gauche, cliquez sur **Activer**. Sélectionnez le **rôle PAM**, puis cliquez sur **Activer**.
 
 > [!Note]
-> Dans cet environnement, vous pouvez aussi apprendre à développer des applications qui utilisent l’API REST PAM, décrite dans [Référence de l’API REST PAM](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference.md).
+> Dans cet environnement, vous pouvez aussi apprendre à développer des applications qui utilisent l’API REST PAM, décrite dans [Privileged Access Management REST API Reference](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference) (Informations de référence sur l’API REST PAM).
 
 ## Résumé
 Une fois que vous aurez effectué les étapes décrites dans cette procédure pas à pas, vous aurez expérimenté un scénario Privileged Access Management, où les privilèges de l’utilisateur sont élevés pour une durée limitée, ce qui lui permet d’accéder à des ressources protégées à l’aide d’un compte privilégié distinct. Dès l'expiration de la session d'élévation, le compte privilégié ne peut plus accéder à la ressource protégée. L’administrateur PAM décide des groupes de sécurité qui représentent les rôles privilégiés. Une fois que les droits d’accès ont été migrés vers le système Privileged Access Management, l’accès qui était jusqu’à maintenant possible grâce au compte d’utilisateur d’origine est désormais possible uniquement en se connectant par le biais d’un compte privilégié spécial, mis à disposition à la demande. Ainsi, les appartenances aux groupes dotés de privilèges élevés sont effectives pour une durée limitée.
@@ -103,6 +103,6 @@ Une fois que vous aurez effectué les étapes décrites dans cette procédure pa
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
