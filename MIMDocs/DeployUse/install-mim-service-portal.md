@@ -4,7 +4,7 @@ description: "Obtenir les étapes pour configurer et installer le service et le 
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 07/21/2016
+ms.date: 08/11/2016
 ms.topic: get-started-article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: b0b39631-66df-4c5f-80c9-a1774346f816
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b3ab1b9376c9b613739d87c812f4b16a4e17e6de
-ms.openlocfilehash: c18ea7b0390ca11c213ed66bfd1476454cf86951
+ms.sourcegitcommit: 739797502e09c2b92e35767e2c943308cd1de5c9
+ms.openlocfilehash: 438754773057043b8560562bab0ae260fb3a4bc2
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: c18ea7b0390ca11c213ed66bfd1476454cf86951
 [Synchroniser les bases de données »](install-mim-sync-ad-service.md)
 
 > [!NOTE]
-> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
 > - Nom du contrôleur de domaine : **mimservername**
 > - Nom de domaine : **contoso**
 > - Mot de passe : **Pass@word1**
@@ -93,7 +93,7 @@ Si vous n’avez pas configuré le package d’installation MIM lors de la derni
 
 1.  Spécifiez *Contoso\MIMSSPRService* comme nom du compte pour l’inscription SSPR avec le mot de passe *Pass@word1*.
 
-2.  Spécifiez *CORPIDM* en tant que nom d’hôte pour l’enregistrement de mot de passe MIM, puis définissez le port **8080**. Activez l’option **Ouvrir le port dans le pare-feu**.
+2.  Spécifiez *CORPIDM* comme nom d’hôte pour le portail de réinitialisation de mots de passe MIM, puis définissez le port sur **8088**. Activez l’option **Ouvrir le port dans le pare-feu**.
 
     ![Entrez les informations de configuration utilisées par l’image IIS](media/MIM-Install15.png)
 
@@ -152,6 +152,6 @@ Une fois l'installation achevée, vérifiez que le portail MIM est actif.
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 
