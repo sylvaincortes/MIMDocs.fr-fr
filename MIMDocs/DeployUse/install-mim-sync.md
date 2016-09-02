@@ -4,7 +4,7 @@ description: "Prise en main des composants MIM 2016 en installant et en configu
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 07/21/2016
+ms.date: 08/11/2016
 ms.topic: get-started-article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 2585e9c5-ce34-46c7-bdcf-8c08773901dc
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b3ab1b9376c9b613739d87c812f4b16a4e17e6de
-ms.openlocfilehash: 2dfc89d32ef3b615201f1eb57ed3b8f5daed513e
+ms.sourcegitcommit: 739797502e09c2b92e35767e2c943308cd1de5c9
+ms.openlocfilehash: ba399da1431ea1d2d1633d0469e054ffd89f1d34
 
 
 ---
@@ -26,7 +26,7 @@ ms.openlocfilehash: 2dfc89d32ef3b615201f1eb57ed3b8f5daed513e
 [Service et portail MIM »](install-mim-service-portal.md)
 
 > [!NOTE]
-> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
+> Cette procédure pas à pas utilise des exemples de noms et de valeurs tirés d’une société appelée Contoso. Remplacez-les par les vôtres. Exemple :
 > - Nom du contrôleur de domaine : **mimservername**
 > - Nom de domaine : **contoso**
 > - Mot de passe : **Pass@word1**
@@ -53,7 +53,7 @@ Pour installer les composants de Microsoft Identity Manager 2016, configurez d�
 
     ![Page Installation personnalisée](media/MIM-Install2.png)
 
-6.  Dans l'écran de configuration de la base de données de synchronisation, sélectionnez :
+6.  Dans l'écran de configuration de la base de données du service de synchronisation, sélectionnez :
 
     1.  Le serveur SQL Server se trouve sur : **Cet ordinateur**.
 
@@ -71,7 +71,7 @@ Pour installer les composants de Microsoft Identity Manager 2016, configurez d�
 
     ![Image du compte de service](media/MIM-Install4.png)
 
-8.  Indiquez au programme d'installation de la synchronisation MIM les groupes de sécurité appropriés :
+8.  Indiquez au programme d'installation du service de synchronisation MIM les groupes de sécurité appropriés :
 
     1. Administrateur = *contoso\MIMSyncAdmins*
 
@@ -87,11 +87,11 @@ Pour installer les composants de Microsoft Identity Manager 2016, configurez d�
 
 9. Dans l’écran des paramètres de sécurité, cochez **Activer les règles de pare-feu pour les communications RPC entrantes**, puis cliquez sur **Suivant**.
 
-10. Cliquez sur **Installer** pour commencer l’installation de la synchronisation MIM.
+10. Cliquez sur **Installer** pour commencer l’installation du service de synchronisation MIM.
 
     1. Un avertissement concernant le compte de service de synchronisation MIM s'affiche. Cliquez sur **OK**.
 
-    2. La synchronisation MIM va être installée.
+    2. Le service de synchronisation MIM s’installe.
 
     3. Une notification relative à la création d’une sauvegarde pour la clé de chiffrement s’affiche : cliquez sur **OK**, puis sélectionnez un dossier où stocker la sauvegarde de la clé de chiffrement.
 
@@ -107,6 +107,6 @@ Pour installer les composants de Microsoft Identity Manager 2016, configurez d�
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO2-->
 
 
