@@ -4,7 +4,7 @@ description: "Découvrez le fonctionnement de MIM 2016 pour créer une expérie
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/27/2016
+ms.date: 08/11/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,14 +13,14 @@ ms.assetid: ccdd8a9f-02da-440a-81a8-354800dcd2a8
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 5247cce895344ac6148b735fe550eb16c39103c7
+ms.sourcegitcommit: 00e11bca207529820eb7b52ab9887a5c3da9db19
+ms.openlocfilehash: 9121f6f7a11dc483763ac594dafae6d8df21c135
 
 
 ---
 
 # Microsoft Identity Manager 2016
-Microsoft Identity Manager (MIM) 2016 s’appuie sur les fonctionnalités de gestion des identités et des accès de FIM 2010 R2. Comme son prédécesseur, MIM vous aide à gérer les utilisateurs, les informations d’identification, les stratégies et les accès au sein de votre organisation.  En outre, MIM 2016 ajoute une expérience hybride, des fonctionnalités de gestion des accès privilégiés, et la prise en charge de nouvelles plateformes.
+Microsoft Identity Manager (MIM) 2016 s’appuie sur les fonctionnalités de gestion des identités et des accès de [FIM 2010 R2](https://technet.microsoft.com/library/jj133885.aspx). Comme son prédécesseur, MIM vous aide à gérer les utilisateurs, les informations d’identification, les stratégies et les accès au sein de votre organisation.  En outre, MIM 2016 ajoute une expérience hybride, des fonctionnalités de gestion des accès privilégiés, et la prise en charge de nouvelles plateformes.
 
 Cette version de Microsoft Identity Manager fournit de nouvelles fonctionnalités telles que Privileged Identity Management et la prise en charge dans la Gestion des certificats de l'accès aux API REST. La Gestion des certificats offre maintenant une prise en charge supplémentaire des topologies à forêts multiples, une application du Windows Store pour la gestion du cycle de vie de certificat et de carte à puce virtuelle, des événements mis à jour et des capacités de dépannage. Les scénarios libre-service incluent désormais le déverrouillage de compte et une porte d'authentification multifacteur pour la réinitialisation des mots de passe.
 
@@ -32,8 +32,11 @@ Privileged Identity Management contrôle et gère l’accès administratif en fo
 
 MIM prend en charge une solution Privileged Identity Management locale pour la gestion d’Active Directory. Pour commencer, [Utiliser Privileged Access Management](/microsoft-identity-manager/pam/privileged-identity-management-for-active-directory-domain-services).
 
+## Rubriques connexes
+Microsoft Identity Manager est toujours étroitement lié à son prédécesseur, Forefront Identity Manager. Si vous utilisez encore FIM ou si vous voulez consulter d’autres documentations, accédez à [FIM 2010 R2 Documentation Roadmap](https://technet.microsoft.com/library/jj133885.aspx) (Feuille de route des documentations FIM 2010 R2).
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO2-->
 
 
