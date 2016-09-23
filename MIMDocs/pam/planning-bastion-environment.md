@@ -4,7 +4,7 @@ description:
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/14/2016
+ms.date: 09/16/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: bfc7cb64-60c7-4e35-b36a-bbe73b99444b
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8af77d2354428da19d91d5f02b490012835f544
-ms.openlocfilehash: 0ed48d43825e1a876c4d96cafcb6c17cac26610f
+ms.sourcegitcommit: 9eefdf21d0cab3f7c488a66cbb3984d40498f4ef
+ms.openlocfilehash: fc4161f98d4367a2124e6253fe11dd1f2712d614
 
 
 ---
@@ -43,7 +43,7 @@ Conformément au [modèle à niveaux](tier-model-for-partitioning-administrative
 
 La forêt de production *CORP* doit approuver la forêt d’administration *PRIV*, mais pas l’inverse. Il peut s’agir d’une approbation de domaine ou d’une approbation de forêt. Le domaine de forêt d’administration n’a pas besoin d’approuver les domaines et les forêts gérés pour gérer Active Directory, même si d’autres applications peuvent nécessiter une relation d’approbation bidirectionnelle, la validation de la sécurité et des tests.
 
-L’authentification sélective doit être utilisée pour s’assurer que les comptes de la forêt d’administration utilisent uniquement les hôtes de production appropriés. Pour la gestion des contrôleurs de domaine et la délégation de droits dans Active Directory, ceci nécessite généralement d’accorder le droit « Autorisé à ouvrir une session » pour les contrôleurs de domaine à des comptes d’administrateur désignés de niveau 0 dans la forêt d’administration. Pour plus d’informations, consultez [Configuring Selective Authentication Settings (Configuration des paramètres de l’authentification sélective)](http://technet.microsoft.com/library/cc755844.aspx).
+L’authentification sélective doit être utilisée pour s’assurer que les comptes de la forêt d’administration utilisent uniquement les hôtes de production appropriés. Pour la gestion des contrôleurs de domaine et la délégation de droits dans Active Directory, ceci nécessite généralement d’accorder le droit « Autorisé à ouvrir une session » pour les contrôleurs de domaine à des comptes d’administrateur désignés de niveau 0 dans la forêt d’administration. Pour plus d’informations, consultez [Configuring Selective Authentication Settings](http://technet.microsoft.com/library/cc816580.aspx) (Configuration des paramètres de l’authentification sélective).
 
 ## Conserver une séparation logique
 
@@ -149,7 +149,7 @@ MIM utilise des applets de commande PowerShell pour établir une relation d’ap
 
 Quand la topologie Active Directory existante est modifiée, les applets de commande `Test-PAMTrust`, `Test-PAMDomainConfiguration`, `Remove-PAMTrust` et `Remove-PAMDomainConfiguration` peuvent être utilisées pour mettre à jour les relations d’approbation.
 
-### Établir l’approbation pour chaque forêt
+## Établir l’approbation pour chaque forêt
 
 L’applet de commande `New-PAMTrust` doit être exécutée une fois pour chaque forêt existante. Elle est appelée sur l’ordinateur du service MIM dans le domaine d’administration. Les paramètres de cette commande sont le nom de domaine du domaine de plus haut niveau de la forêt existante et les informations d’identification d’un administrateur de ce domaine.
 
@@ -159,11 +159,11 @@ New-PAMTrust -SourceForest "contoso.local" -Credentials (get-credential)
 
 Après avoir établi l’approbation, configurez chaque domaine pour activer la gestion depuis l’environnement bastion, comme décrit dans la section suivante.
 
-### Activer la gestion de chaque domaine
+## Activer la gestion de chaque domaine
 
 Sept spécifications sont requises pour l’activation de la gestion pour un domaine existant.
 
-#### 1. Un groupe de sécurité sur le domaine local
+### 1. Un groupe de sécurité sur le domaine local
 
 Il doit y avoir un groupe dans le domaine existant, dont le nom est le nom de domaine NetBIOS suivi de trois signes dollar, par exemple *CONTOSO$$$*. L’étendue du groupe doit être *domaine local* et le type de groupe doit être *Sécurité*. Ceci est nécessaire pour que les groupes soient créés dans la forêt d’administration dédiée avec le même identificateur de sécurité que les groupes de ce domaine. Créez ce groupe avec la commande PowerShell suivante, exécutée par un administrateur du domaine existant sur une station de travail jointe au domaine existant :
 
@@ -171,7 +171,7 @@ Il doit y avoir un groupe dans le domaine existant, dont le nom est le nom de do
 New-ADGroup -name 'CONTOSO$$$' -GroupCategory Security -GroupScope DomainLocal -SamAccountName 'CONTOSO$$$'
 ```
 
-#### 2. Audit des succès et des échecs
+### 2. Audit des succès et des échecs
 
 Les paramètres de stratégie de groupe pour l’audit sur le contrôleur de domaine doit inclure l’audit des actions ayant réussi et échoué pour Auditer la gestion des comptes et pour Auditer l’accès au service d’annuaire. Cela peut être fait avec la Console de gestion des stratégies de groupe, exécutée par un administrateur du domaine existant, et exécutée sur une station de travail jointe au domaine existant :
 
@@ -201,7 +201,7 @@ Les paramètres de stratégie de groupe pour l’audit sur le contrôleur de dom
 
 Le message « La mise à jour de la stratégie d'ordinateur s'est terminée sans erreur » doit apparaître après quelques minutes.
 
-#### 3. Autoriser les connexions à l’Autorité de sécurité locale
+### 3. Autoriser les connexions à l’Autorité de sécurité locale
 
 Les contrôleurs de domaine doivent autoriser les connexions RPC sur TCP/IP pour l’Autorité de sécurité locale (LSA) à partir de l’environnement bastion. Dans les versions antérieures de Windows Server, la prise en charge de TCP/IP dans LSA doit être activée dans le Registre :
 
@@ -209,7 +209,7 @@ Les contrôleurs de domaine doivent autoriser les connexions RPC sur TCP/IP pour
 New-ItemProperty -Path HKLM:SYSTEM\\CurrentControlSet\\Control\\Lsa -Name TcpipClientSupport -PropertyType DWORD -Value 1
 ```
 
-#### 4. Créer la configuration de domaine PAM
+### 4. Créer la configuration de domaine PAM
 
 L’applet de commande `New-PAMDomainConfiguration` doit être exécutée sur l’ordinateur du service MIM dans le domaine d’administration. Les paramètres de cette commande sont le nom de domaine du domaine existant et les informations d’identification d’un administrateur de ce domaine.
 
@@ -217,7 +217,7 @@ L’applet de commande `New-PAMDomainConfiguration` doit être exécutée sur l�
  New-PAMDomainConfiguration -SourceDomain "contoso" -Credentials (get-credential)
 ```
 
-#### 5. Accorder des autorisations de lecture aux comptes
+### 5. Accorder des autorisations de lecture aux comptes
 
 Les comptes de la forêt bastion utilisés pour établir des rôles (administrateurs qui utilisent les applets de commande `New-PAMUser` et `New-PAMGroup` ), ainsi que le compte utilisé par le service de surveillance MIM, ont besoin des autorisations de lecture dans ce domaine.
 
@@ -239,11 +239,11 @@ Les étapes suivantes permettent d’accorder à l’utilisateur *PRIV\Administr
 
 18. Fermez Utilisateurs et ordinateurs Active Directory.
 
-#### 6. Un compte de secours
+### 6. Un compte de secours
 
 Si l’objectif du projet de gestion des accès privilégiés est de réduire le nombre de comptes avec des privilèges d’administrateur de domaine affectés en permanence au domaine, il doit y avoir un compte *de secours* dans le domaine, au cas où un problème surviendrait avec la relation d’approbation. Les comptes pour les accès d’urgence à la forêt de production doivent exister dans chaque domaine, et ils ne doivent être en mesure de se connecter à des contrôleurs de domaine. Pour les organisations avec plusieurs sites, des comptes supplémentaires peuvent être nécessaires pour assurer la redondance.
 
-#### 7. Mettre à jour les autorisations dans l’environnement bastion
+### 7. Mettre à jour les autorisations dans l’environnement bastion
 
 Vérifiez les autorisations sur l’objet *AdminSDHolder* dans le conteneur Système de ce domaine. L’objet *AdminSDHolder* a une liste de contrôle d’accès (ACL) unique, qui est utilisée pour contrôler les autorisations des principaux de sécurité qui sont membres des groupes Active Directory privilégiés intégrés. Vérifiez si des modifications ont été apportées aux autorisations par défaut qui auraient un impact sur les utilisateurs avec des privilèges d’administration dans le domaine, car ces autorisations ne s’appliquent pas aux utilisateurs dont le compte est dans l’environnement bastion.
 
@@ -253,6 +253,6 @@ L’étape suivante consiste à définir les rôles PAM, en associant les utilis
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO3-->
 
 
