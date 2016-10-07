@@ -69,7 +69,8 @@ Vous trouverez des informations mises à jour sur la prise en charge de la plate
 
 Les clients qui mettent à niveau vers Microsoft Identity Manager 2016 Service Pack 1 doivent respecter les instructions suivantes pour tous les services applicables à leur déploiement.
 
->[!Note] Les clients exécutant Forefront Identity Manager 2010 R2 SP1 ou une version antérieure doivent d’abord mettre à niveau leur environnement vers Microsoft Identity Manager 2016 publié en août 2015, puis suivre les étapes ci-dessous.
+>[!Note]
+>Les clients exécutant Forefront Identity Manager 2010 R2 SP1 ou une version antérieure doivent d’abord mettre à niveau leur environnement vers Microsoft Identity Manager 2016 publié en août 2015, puis suivre les étapes ci-dessous.
 
 Avant de commencer
 
