@@ -20,9 +20,19 @@
 ### [Étape 6 : Créer des comptes privilégiés](step-6-transition-group-to-pam.md)
 ### [Étape 7 : Élever l’accès d’un utilisateur](step-7-elevate-user-access.md)
 ### [Configurer Azure MFA](use-azure-mfa-for-activation.md)
+## [Configurer PAM à l’aide de scripts](sp1-pam-configure-using-scripts.md)
+### [Étape 1 : Configurer le domaine Priv](sp1-step1-configuring-priv-domain.md)
+### [Étape 2 : Configurer le domaine CORP](sp1-step2-configuring-corp-domain.md)
+### [Étape 3 : Configurer SQL](sp1-step3-installing-configuring-sql.md)
+### [Étape 4 : Configurer SharePoint](sp1-step4-configuring-sharepoint.md)
+### [Étape 5 : Installer et configurer PAM](sp1-step5-configuring-pam.md)
+### [Étape 6 : Configurer l’approbation PAM](sp1-step6-setup-pam-trust.md)
+### [Étape 7 : Configurer l’historique SID/le filtrage SID](sp1-step7-setup-sidhistory-sidfiltering.md)
+### [Étape 8 : Vérifier le déploiement PAM](sp1-step8-pam-deployment-verification.md)
+### [Addenda](sp1-pam-deployment-addendum.md)
 # [Référence pour les développeurs](/microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference)
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO4-->
 
 
