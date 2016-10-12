@@ -51,7 +51,7 @@ Ajoutez les rôles Serveur web (IIS) et Serveur d'applications, les fonctionnali
 
 1.  Connectez-vous en tant qu’administrateur de domaine PRIV (PRIV\Administrateur) et lancez PowerShell.
 
-2.  Tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités .NET Framework 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS), dans le dossier de sources du disque d’installation du système d’exploitation, par exemple d:\Sources\SxS.\.
+2.  Tapez les commandes suivantes. Notez que vous devrez peut-être spécifier un autre emplacement pour les fichiers sources pour les fonctionnalités .NET Framework 3.5. Ces fonctionnalités ne sont généralement pas présentes durant l’installation de Windows Server, mais elles sont disponibles dans le dossier côte à côte (SxS) dans le dossier de sources du disque d’installation du système d’exploitation, par exemple « *d:\Sources\SxS ».
 
     ```
     import-module ServerManager
@@ -212,6 +212,6 @@ En cas d’échec de la connexion, les noms de principaux du service (SPN) Kerbe
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO2-->
 
 
